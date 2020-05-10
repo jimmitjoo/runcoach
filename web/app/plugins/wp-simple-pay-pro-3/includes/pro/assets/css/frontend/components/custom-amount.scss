@@ -1,0 +1,60 @@
+.simpay-custom-amount-container {
+
+	.simpay-custom-amount-wrap {
+		display: flex;
+		align-items: center;
+	}
+
+	.simpay-currency-symbol {
+		padding: 10px;
+	}
+
+	.simpay-styled & {
+
+		.simpay-custom-amount-input {
+			height: $input-height;
+			width: 125px;
+			flex: 0 0 125px;
+		}
+
+		[type="text"],
+		[type="tel"],
+		[type="number"] {
+
+			&.simpay-custom-amount-input-symbol {
+
+				&-left {
+					border-top-left-radius: 0;
+					border-bottom-left-radius: 0;
+				}
+
+				&-right {
+					border-top-right-radius: 0;
+					border-bottom-right-radius: 0;
+				}
+			}
+		}
+
+		.simpay-currency-symbol {
+			font-family: $base-font;
+			line-height: $input-height - 2;
+			flex: 0 0 auto;
+			border: 1px solid $input-border-color;
+			padding: 0 10px;
+			border-radius: 4px;
+			background-color: #f2f2f2;
+
+			&-left {
+				border-right: 0;
+				border-top-right-radius: 0;
+				border-bottom-right-radius: 0;
+			}
+
+			&-right {
+				border-left: 0;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}

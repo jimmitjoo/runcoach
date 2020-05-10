@@ -1,0 +1,58 @@
+@mixin btn {
+	font-family: $base-font;
+	font-size: 15px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #24b47e;
+	background-image: none;
+	display: block;
+	height: $input-height;
+	line-height: $line-height;
+	width: 100%;
+	margin: 0;
+	padding: 0 10px;
+	border: 0;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&:hover {
+		text-decoration: none;
+		background-color: #249a65;
+		background-image: none;
+	}
+
+	&:disabled {
+		pointer-events: none;
+	}
+
+	&:focus {
+		background-color: #24b47e;
+		box-shadow: inset 0 0 0 2px lighten(#24b47e, 10);
+	}
+
+	&.simpay-disabled {
+		background-color: #aab7c4;
+	}
+}
+
+.simpay-btn:not(.stripe-button-el) {
+
+	.simpay-styled & {
+
+		@include btn;
+	}
+}
+
+// Backwards compatibility selector level.
+.simpay-form-control {
+
+	.simpay-styled & {
+
+		.simpay-btn:not(.stripe-button-el) {
+
+			@include btn;
+		}
+	}
+}

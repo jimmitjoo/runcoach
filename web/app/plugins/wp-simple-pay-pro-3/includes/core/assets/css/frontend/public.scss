@@ -1,0 +1,52 @@
+.stripe-button-el {
+
+	.simpay-styled & {
+		text-decoration: none;
+	}
+}
+
+// Loading state.
+.simpay-checkout-form {
+
+	&--loading {
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			top: 0;
+		}
+
+		.simpay-form-control {
+			opacity: 0.65;
+		}
+	}
+}
+
+// Error messages container.
+.simpay-errors {
+	margin-bottom: 15px;
+
+	.simpay-styled & {
+		font-family: $base-font;
+		color: $error-text-color;
+	}
+}
+
+// Test mode badge.
+.simpay-test-mode-badge-container {
+	text-align: center;
+
+	.simpay-test-mode-badge {
+		background-color: #f7e633;
+		color: $base-text-color;
+		border-radius: 5px;
+		font-family: $base-font;
+		font-weight: 700;
+		font-size: 11px;
+		text-transform: uppercase;
+		padding: 5px 9px;
+	}
+}

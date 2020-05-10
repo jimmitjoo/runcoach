@@ -1,0 +1,132 @@
+.simpay-form-control {
+	margin-bottom: 15px;
+
+	p {
+		padding: 0;
+		margin: 0;
+	}
+
+	ul {
+		margin: 0 0 0.5em 0;
+		padding: 0;
+
+		li {
+			list-style-type: none;
+			margin: 0;
+
+			label {
+				display: block;
+				margin: 0 0 0.5em 0;
+
+				input[type="radio"],
+				input[type="checkbox"] {
+					margin-right: 0.5em;
+				}
+			}
+		}
+	}
+
+	.simpay-styled & {
+
+		label {
+			font-weight: 600;
+			cursor: pointer;
+			margin-bottom: 5px;
+		}
+
+		p {
+			font-weight: 500;
+		}
+
+		p,
+		label {
+			color: $input-text-color;
+			font-family: $base-font;
+			font-size: 15px;
+		}
+
+		input[type="date"],
+		input[type="time"],
+		input[type="datetime-local"],
+		input[type="week"],
+		input[type="month"],
+		input[type="text"],
+		input[type="email"],
+		input[type="url"],
+		input[type="password"],
+		input[type="search"],
+		input[type="tel"],
+		input[type="number"],
+		select,
+		textarea,
+		.simpay-card-wrap {
+			font-family: $base-font;
+			font-size: 15px;
+			font-weight: 500;
+			color: $input-text-color;
+
+			// Form styles not repeated in Elements JS
+			margin-bottom: 0;
+			background: #fff;
+			box-shadow: none;
+			border: 1px solid $input-border-color;
+			border-radius: 4px;
+			padding: 0 0.4375em;
+			height: $input-height;
+			min-height: $input-height;
+			width: 100%;
+			box-sizing: border-box;
+
+			&::placeholder {
+				color: $input-placeholder-color;
+			}
+
+			&:focus {
+				background-color: #fff;
+				border-color: $input-focus-border-color;
+				outline: 0;
+			}
+
+			// Set border color of invalid inputs.
+			&.simpay-input-error {
+				border-color: $error-text-color;
+			}
+		}
+
+		.StripeElement--webkit-autofill {
+			background: transparent !important;
+		}
+
+		select,
+		select:-webkit-autofill {
+			-webkit-animation: 1ms void-animation-out;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='5'%3E%3Cpath fill='%2332325d' d='M5.354 4.646L9.146.854A.5.5 0 0 0 8.793 0H1.207a.5.5 0 0 0-.353.854l3.792 3.792a.5.5 0 0 0 .708 0z'/%3E%3C/svg%3E%0A");
+			background-position: calc(100% - 8px);
+			background-size: 10px 5px;
+			background-repeat: no-repeat;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			padding-right: 25px;
+			width: auto;
+			max-width: 100%;
+		}
+
+		.simpay-card-wrap.StripeElement {
+			display: flex;
+			align-items: center;
+
+			> div {
+				flex: 1;
+			}
+		}
+
+		.simpay-card-wrap.StripeElement--focus {
+			border-color: $input-focus-border-color;
+			color: $input-text-color;
+		}
+	}
+}

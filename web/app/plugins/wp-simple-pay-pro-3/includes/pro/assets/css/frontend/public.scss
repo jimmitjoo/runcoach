@@ -1,0 +1,23 @@
+$line-height: 1.5;
+$input-height: 36px;
+$input-text-color: #32325d;
+$input-placeholder-color: #c7c7c7;
+$input-border-color: #d1d1d1;
+$input-focus-border-color: #007acc;
+
+// Form.
+@import "./components/form.scss";
+@import "./components/form-control.scss";
+@import "./components/button.scss";
+
+// Overlay.
+@import "./components/overlay.scss";
+
+// Components.
+@import "./components/coupons.scss";
+@import "./components/total-amount-labels.scss";
+@import "./components/custom-amount.scss";
+@import "./components/payment-request-button.scss";
+@import "./components/address.scss";
+@import "./components/custom-amount.scss";
+@import "./components/fields/checkbox.scss";

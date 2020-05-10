@@ -1,0 +1,38 @@
+.simpay-payment-request-button-container {
+	margin: 15px 0;
+
+	.simpay-form-control &__or {
+
+		.simpay-styled & {
+			font-size: 90%;
+			text-align: center;
+			overflow: hidden;
+
+			&::before,
+			&::after {
+				background-color: #d1d1d1;
+				content: "";
+				display: inline-block;
+				height: 1px;
+				position: relative;
+				vertical-align: middle;
+				width: 50%;
+			}
+
+			&::before {
+				right: 0.5em;
+				margin-left: -50%;
+			}
+
+			&::after {
+				left: 0.5em;
+				margin-right: -50%;
+			}
+		}
+	}
+
+	&__button + &__or,
+	&__or + &__button {
+		margin-top: 15px;
+	}
+}

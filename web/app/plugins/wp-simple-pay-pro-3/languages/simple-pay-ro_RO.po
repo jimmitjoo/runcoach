@@ -1,0 +1,4269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Simple Pay Pro 3\n"
+"Report-Msgid-Bugs-To: https://wpsimplepay.com/\n"
+"POT-Creation-Date: 2020-02-25 18:19:58+00:00\n"
+"PO-Revision-Date: 2020-02-26 15:44-0800\n"
+"Last-Translator: Lucian Mihailescu <intercer@gmail.com>\n"
+"Language-Team: Lucian Mihailescu - LucianWebService.com\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: simple-pay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: wpsimplepaypro\n"
+"X-Poedit-SearchPath-2: wpsimplepaypro/simple-pay.pot\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/core/abstracts/abstract-form.php:324
+msgid "Pay %s"
+msgstr "Plătește %s"
+
+#: includes/core/admin/class-menus.php:91
+msgid "Simple Pay Test Mode Active"
+msgstr "\"Plătește Simplu\": Modul TEST Activ"
+
+#: includes/core/admin/class-menus.php:122
+msgid "Simple Pay Lite"
+msgstr "Plătește Simplu versiunea gratuită"
+
+#: includes/core/admin/class-menus.php:163
+msgid "Forms"
+msgstr "Formulare"
+
+#: includes/core/admin/class-menus.php:193
+#: includes/core/admin/class-menus.php:292
+#: includes/core/admin/pages/class-main.php:167
+#: includes/core/admin/tables/class-form-list-table.php:38
+msgid "Payment Forms"
+msgstr "Formulare de plată"
+
+#: includes/core/admin/class-menus.php:204
+#: includes/core/admin/pages/class-main.php:157
+msgid "Add New"
+msgstr "Adaugă Nou"
+
+#: includes/core/admin/class-menus.php:220
+#: includes/core/admin/class-menus.php:291
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/core/admin/class-menus.php:226
+#: includes/core/admin/pages/class-system-status.php:123
+msgid "%s Settings"
+msgstr "%s Setări"
+
+#: includes/core/admin/class-menus.php:239
+#: includes/core/admin/class-menus.php:240
+#: includes/core/admin/pages/class-system-status.php:94
+msgid "System Report"
+msgstr "Report sistem"
+
+#: includes/core/admin/class-menus.php:251
+#: includes/core/admin/class-menus.php:252
+#: includes/core/admin/class-menus.php:270
+#: includes/core/admin/class-menus.php:295
+msgid "Upgrade to Pro"
+msgstr "Actualizați la Pro"
+
+#. Translators: 1. The plugin name
+#: includes/core/admin/class-pages.php:94
+msgid ""
+"If you like <strong>%1$s</strong> please leave us a %2$s rating. A huge "
+"thanks in advance!"
+msgstr ""
+"Dacă vă place <strong>%1$s</strong>, vă rugăm să ne dați o evaluare %2$s. "
+"Multe mulțumiri în avans!"
+
+#: includes/core/admin/class-pages.php:97
+msgid "Thanks :)"
+msgstr "Mulțumim :)"
+
+#: includes/core/admin/fields/class-checkbox.php:94
+#: includes/core/admin/pages/class-system-status.php:189
+#: includes/core/admin/pages/class-system-status.php:192
+#: includes/core/admin/pages/class-system-status.php:229
+#: includes/core/admin/pages/class-system-status.php:245
+#: includes/core/admin/pages/class-system-status.php:358
+#: includes/core/admin/pages/class-system-status.php:476
+#: includes/core/admin/pages/class-system-status.php:496
+#: includes/core/admin/pages/class-system-status.php:551
+#: includes/core/admin/pages/class-system-status.php:581
+#: includes/core/admin/pages/class-system-status.php:591
+#: includes/core/admin/pages/class-system-status.php:596
+#: includes/core/admin/pages/class-system-status.php:601
+#: includes/core/admin/pages/class-system-status.php:606
+msgid "Yes"
+msgstr "Da"
+
+#: includes/core/admin/functions/notices.php:44
+msgid ""
+"SSL (HTTPS) is not enabled. You will not be able to process live Stripe "
+"transactions until SSL is enabled."
+msgstr ""
+"SSL (HTTPS) nu este activat. Nu veți putea procesa tranzacțiile reale Stripe "
+"până nu veți activa SSL."
+
+#: includes/core/admin/functions/notices.php:73
+msgid ""
+"WP Simple Pay supports Stripe Connect for easier setup and improved "
+"security. Connect now to start accepting payments instantly."
+msgstr ""
+"WP Simple Pay suportă acum Stripe Connect mai ușor de setat și cu securitate "
+"îmbunătățită. Conectează-te acum pentru a accepta plăți imediate."
+
+#: includes/core/admin/functions/notices.php:78
+#: includes/core/admin/pages/class-keys.php:110
+msgid "Connect with Stripe"
+msgstr "Conectare cu Stripe"
+
+#: includes/core/admin/functions/notices.php:108
+msgid "WP Simple Pay is increasing its PHP version requirement."
+msgstr "WP Simple Pay crește versiunea necesară pentru PHP."
+
+#: includes/core/admin/functions/notices.php:112
+msgid ""
+"WP Simple Pay will be increasing its PHP requirement to version <code>%1$s</"
+"code> or higher in an upcoming release. It looks like you're using version "
+"<code>%2$s</code>, which means you will need to upgrade your version of PHP "
+"to allow the plugin to continue to function. Newer versions of PHP are both "
+"faster and more secure. The version you're using <a href=\"%3$s\" target="
+"\"_blank\" rel=\"noopener noreferrer\">no longer receives security updates</"
+"a>, which is another great reason to update."
+msgstr ""
+"WP Simple Pay va crește versiunea necesară de PHP la <code>%1$s</code> sau "
+"mai mare într-o versiune următoare. Se pare că folosești versiunea <code>"
+"%2$s</code>, ceea ce presupune că trebuie să actualizezi versiunea de PHP "
+"pentru a permite ca pluginul să poată continua să funcționeze. Versiunile "
+"mai noi de PHP sunt mai rapide și mai sigure. Versiunea pe care o folosești "
+"<a href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\"> nu mai "
+"primește actualizări de securitate</a>, ceea ce oferă un bun motiv pentru a "
+"îl actualiza."
+
+#: includes/core/admin/functions/notices.php:116
+msgid "Which version should I upgrade to?"
+msgstr "La ce versiune să actualizez?"
+
+#: includes/core/admin/functions/notices.php:120
+msgid ""
+"In order to be compatible with future versions of WP Simple Pay, you should "
+"update your PHP version to <code>%1$s</code>, <code>7.0</code>, <code>7.1</"
+"code>, or <code>7.2</code>. On a normal WordPress site, switching to PHP "
+"<code>%1$s</code> should never cause issues. We would however actually "
+"recommend you switch to PHP <code>7.1</code> or higher to receive the full "
+"speed and security benefits provided to more modern and fully supported "
+"versions of PHP. However, some plugins may not be fully compatible with PHP "
+"<code>7.x</code>, so more testing may be required."
+msgstr ""
+"Pentru a fi compatibil cu versiunile viitoare ale WP Simple Pay, trebuie să "
+"actualizezi versiunea ta de PHP la <code>%1$s</code>, <code>7.0</code>, "
+"<code>7.1</code>, or <code>7.2</code>. Într-un website normal WordPress, "
+"trecerea la PHP <code>%1$s</code> nu ar trebui să producă probleme. Noi însă "
+"recomandăm actualizarea la PHP <code>7.1</code> sau mai mare pentru a folosi "
+"beneficiile de viteză și securitate oferite de versiunile mai moderne și pe "
+"deplin suportate de PHP. Cu toate acestea, unele plugin-uri s-ar putea să nu "
+"fie compatibile cu PHP <code>7.x</code>, așa că mai multe teste pot fi "
+"necesare."
+
+#: includes/core/admin/functions/notices.php:124
+msgid "Need help upgrading? Ask your web host!"
+msgstr "Ai nevoie de ajutor pentru actualizare? Adresează-te gazdei tale web!"
+
+#: includes/core/admin/functions/notices.php:128
+msgid ""
+"Many web hosts can give you instructions on how/where to upgrade your "
+"version of PHP through their control panel, or may even be able to do it for "
+"you. If you need to change hosts, please see <a href=\"%s\" target=\"_blank"
+"\" rel=\"noopener noreferrer\">our hosting recommendations</a>."
+msgstr ""
+"Multe gazde web îți pot oferi instrucțiuni despre cum/unde să actualizezi "
+"versiunea de PHP prin intermediul panoului lor de control, sau pot fi chiar "
+"în măsură să o facă pentru tine. Dacă ai nevoie să schimbi gazda web, te "
+"rugăm să consulți <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">recomandările noastre de hosting</a>."
+
+#: includes/core/admin/metaboxes/class-custom-fields.php:123
+#: includes/pro/admin/metaboxes/class-custom-fields.php:166
+msgid "Payment Button"
+msgstr "Buton de plată"
+
+#: includes/core/admin/metaboxes/class-settings.php:145
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:21
+msgid "Payment Options"
+msgstr "Opțiuni de plată"
+
+#: includes/core/admin/metaboxes/class-settings.php:151
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:28
+msgid "On-Page Form Display"
+msgstr "Matrița formularului în pagină"
+
+#: includes/core/admin/metaboxes/class-settings.php:157
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:19
+msgid "Stripe Checkout Display"
+msgstr "Afișare Plată Stripe"
+
+#: includes/core/admin/metaboxes/class-settings.php:163
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:10
+msgid "Subscription Options"
+msgstr "Opțiuni abonare"
+
+#: includes/core/admin/metaboxes/class-settings.php:358
+msgid ""
+"Configure the on-page Payment Button in the %1$sCustom Form Fields%2$s "
+"options."
+msgstr ""
+"Configurează butonul de plată din pagină la opțiunile din %1$sCâmpurile "
+"personalizate ale formularului%2$s."
+
+#: includes/core/admin/metaboxes/views/partials/company-info-settings.php:26
+msgid "Company Name"
+msgstr "Nume firmă"
+
+#: includes/core/admin/metaboxes/views/partials/company-info-settings.php:42
+msgid "Also used for the form heading."
+msgstr "De asemenea, utilizat pentru antetul formularului."
+
+#: includes/core/admin/metaboxes/views/partials/company-info-settings.php:51
+msgid "Item Description"
+msgstr "Descriere produs"
+
+#: includes/core/admin/metaboxes/views/partials/company-info-settings.php:66
+msgid "Also used for the form subheading."
+msgstr "De asemenea, utilizate pentru subtitlul formularului."
+
+#. translators: %1$s URL to Stripe Checkout settings, %2$s Link clas, %3$s Tab
+#. to show
+#: includes/core/admin/metaboxes/views/partials/company-info-settings.php:84
+msgid ""
+"Configure your Stripe Checkout form in the <a href=\"%1$s\" class=\"%2$s\" "
+"data-show-tab=\"%3$s\">Stripe Checkout Display</a> options."
+msgstr ""
+"Configurați formularul de plată Stripe în opțiunile de <a href=\"%1$s\" "
+"class=\"%2$s\" data-show-tab=\"%3$s\"> Afișare Plată Stripe</a>."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:34
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:13
+msgid "Payment Button Text"
+msgstr "Text buton de plată"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:53
+#: includes/core/forms/class-default-form.php:258
+#: includes/core/forms/fields/class-payment-button.php:46
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:32
+msgid "Pay with Card"
+msgstr "Plătește cu card"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:63
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:42
+msgid "Payment Button Processing Text"
+msgstr "Text buton procesare plată"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:82
+#: includes/core/forms/class-default-form.php:259
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:61
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:61
+#: includes/pro/forms/class-pro-form.php:904
+#: includes/pro/payments/payment-confirmation.php:163
+msgid "Please Wait..."
+msgstr "Vă rugăm, așteptați..."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:92
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:71
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:71
+msgid "Payment Button Style"
+msgstr "Stilul butonului de plată"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:104
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:83
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:82
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:83
+msgid "Stripe blue"
+msgstr "Dungă albastră"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-custom-form-fields.php:105
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:84
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:83
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:84
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:190
+msgid "Default"
+msgstr "Implicit"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:30
+msgid "One-Time Amount"
+msgstr "Sumă unică"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:79
+#: includes/core/admin/pages/class-general.php:100
+msgid "Payment Success Page"
+msgstr "Pagina de plată cu succes"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:93
+msgid "Global Setting"
+msgstr "Setare generală"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:94
+msgid "Specific Page"
+msgstr "Pagină specifică"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:95
+msgid "Redirect URL"
+msgstr "URL redirectare"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:111
+msgid ""
+"By default, the payment success page indicated in Simple Pay > Settings > "
+"General will be used. This option allows you to specify an alternate page or "
+"URL for this payment form only."
+msgstr ""
+"În mod implicit, va fi folosită pagina de plată cu succes indicată în "
+"Plătește Simplu > Setări > General. Această opțiune vă permite să "
+"specificați o pagină alternativă sau URL doar pentru acest formular de plată."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:128
+msgid ""
+"Choose a page from your site to redirect to after a successful transaction."
+msgstr ""
+"Alegeți o pagină din website-ul dvs. pentru a redirecta după o tranzacție "
+"reușită."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-payment-options.php:151
+msgid "Enter a custom redirect URL for successful transactions."
+msgstr ""
+"Introduceți un URL personalizat de redirectare pentru tranzacțiile reușite."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:36
+msgid "Logo/Image URL"
+msgstr "URL Logo/Imagine"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:57
+msgid "Add or Upload Image"
+msgstr "Adaugă sau încarcă imagine"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:60
+msgid ""
+"Upload or select a square image of your brand or product to show on on the "
+"Checkout page."
+msgstr ""
+"Încărcați sau selectați o imagine pătrată a mărcii sau produsului pe care "
+"doriți să îl afișați pe pagina de plată."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:65
+msgid "Remove image"
+msgstr "Înlătură imagine"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:73
+msgid "Submit Button Color"
+msgstr "Remitere culoare buton"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:80
+msgid ""
+"Adjust the Stripe Checkout submit button color in the Stripe %1$sBranding "
+"settings%2$s"
+msgstr ""
+"Ajustarea culorii butonului de remitere stripe checkout în setările Stripe "
+"%1$sBranding%2$s"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:99
+msgid "Submit Button Type"
+msgstr "Tip buton remitere"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:112
+msgid "Booking"
+msgstr "Rezervare"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:113
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:52
+msgid "Donate"
+msgstr "Donează"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:114
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:51
+msgid "Pay"
+msgstr "Plătește"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:116
+msgid ""
+"Describes the type of transaction being performed by Checkout in order to "
+"customize relevant text on the page, such as the submit button."
+msgstr ""
+"Descrie tipul de tranzacție efectuată de Checkout pentru a personaliza "
+"textul relevant din pagină, cum ar fi butonul de remitere."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:127
+msgid "Require Billing Address"
+msgstr "Solicită adresa completă de facturare"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-stripe-checkout.php:142
+msgid ""
+"If enabled, Checkout will always collect the customer’s billing address. If "
+"not, Checkout will only collect the billing address when necessary."
+msgstr ""
+"Dacă este activată, Checkout va colecta întotdeauna adresa de facturare a "
+"clientului. Dacă nu, Checkout va colecta doar adresa de facturare atunci "
+"când este necesar."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:23
+msgid "Need your customers to sign up for recurring payments?"
+msgstr "Aveți nevoie ca clienții dvs. să se înscrie la plăți recurente?"
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:26
+msgid ""
+"By upgrading to a WP Simple Pay Pro Plus or higher license, you can connect "
+"Stripe subscriptions to your payment forms. You can also create installment "
+"plans, setup fees, and free trial periods."
+msgstr ""
+"Prin actualizarea la licența WP Simple Pay Pro Plus, veți putea conecta "
+"abonamentele Stripe în formularele dvs. de plată. De asemenea, veți putea "
+"crea plăți în rate, prețuri pentru instalare și pentru perioade de probă."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:33
+msgid ""
+"Upgrade before <em>23:59 PM December 6th CST</em> and <strong>SAVE 25%</"
+"strong> during our Black Friday & Cyber Monday sale. Use code "
+"<code>BFCM2019</code> at checkout."
+msgstr ""
+"Upgrade înainte de <em>23:59 pm 6 decembrie CST</em> și <strong>salvează "
+"25%</strong> în timpul Black Frida & Cyber Monday. Utilizați codul "
+"<code>BFCM2019</code> la checkout."
+
+#: includes/core/admin/metaboxes/views/tabs/tab-subscription-options.php:50
+#: includes/core/admin/notices/promos/general/promo-under-box-footer.php:21
+#: includes/core/admin/notices/promos/general/sidebar.php:24
+msgid "Click here to Upgrade"
+msgstr "Dați click aici pentru actualizare"
+
+#: includes/core/admin/notices/promos/bfcm/sidebar.php:44
+msgid ""
+"Save 25% on all WP Simple Pay Pro purchases <strong>this week</strong>, "
+"including renewals and upgrades!"
+msgstr ""
+"Economisiți 25% la toate achizițiile WP simple Pay Pro în <strong>această "
+"săptămână</strong>, inclusiv reînnoirile și upgrade-uri!"
+
+#: includes/core/admin/notices/promos/bfcm/sidebar.php:48
+msgid "Use code at checkout:"
+msgstr "Utilizați codul la Checkout:"
+
+#: includes/core/admin/notices/promos/bfcm/sidebar.php:50
+msgid ""
+"Sale ends 23:59 PM December 6th CST. Save 25% on <a href=\"https://"
+"sandhillsdev.com/projects/\" target=\"_blank\">our other plugins</a>."
+msgstr ""
+"Vânzarea se termina la 23:59 PM 6 decembrie CST. Salvați 25% pentru <a href="
+"\"https://sandhillsdev.com/projects/\" target=\"_blank\">celelalte plugin-"
+"uri noastre</a>."
+
+#: includes/core/admin/notices/promos/bfcm/sidebar.php:54
+msgid "Upgrade Now!"
+msgstr "Actualizați la Pro!"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:2
+msgid "Want to customize your payment forms even more?"
+msgstr "Doriți să personalizați mai mult formularele dvs. de plată?"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:4
+msgid ""
+"By upgrading to WP Simple Pay Pro, you get access to powerful features such "
+"as:"
+msgstr ""
+"Prin actualizarea la WP simple Pay Pro, veți obține acces la caracteristici "
+"puternice, cum ar fi:"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:9
+msgid "Unlimited custom fields to capture additional data"
+msgstr "Câmpuri particularizate nelimitate pentru a captura date suplimentare"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:10
+msgid "Custom amounts - let customers enter an amount to pay"
+msgstr "Sume personalizate-Permiteți clienților să introducă o sumă de plătit"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:11
+#: includes/core/admin/notices/promos/general/sidebar.php:14
+msgid "Coupon code support"
+msgstr "Cod cupon suport"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:12
+msgid "On-site checkout (no redirect) with custom forms"
+msgstr ""
+"Checkout la fața locului (fără redirecționare) cu formulare particularizate"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:13
+msgid "Embedded & overlay form display options"
+msgstr "Opțiuni pentru afișare formularului inclus și al celui suprapus"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:14
+msgid "Apple Pay & Google Pay support with custom forms"
+msgstr "Suport forme personalizate Apple Pay/Google Pay"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:15
+msgid "Stripe Subscription support (Plus or higher license required)"
+msgstr "Suport pentru abonamente Stripe (plus sau licență mai mare necesară)"
+
+#: includes/core/admin/notices/promos/general/generic-tab-promo.php:21
+msgid ""
+"<strong>SAVE 25%</strong> on all WP Simple Pay Pro purchases this week, "
+"including renewals and upgrades! Sale ends <em>23:59 PM December 6th CST</"
+"em>. Use code <code>BFCM2019</code> at checkout."
+msgstr ""
+"<strong>Economisiți 25%</strong> la toate achizițiile WP simple Pay Pro în "
+"această săptămână, inclusiv reînnoirile și upgrade-uri! Vânzarea se încheie "
+"la <em>23:59 pm 6 decembrie CST</em>. Utilizați codul <code>BFCM2019</code> "
+"la checkout."
+
+#: includes/core/admin/notices/promos/general/sidebar.php:3
+msgid "Upgrade your Payment Forms"
+msgstr "Actualizează formulare de plată"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:7
+msgid "Additional features included in<br />WP Simple Pay Pro"
+msgstr "Caracteristici suplimentare incluse în<br>WP simplu Pay Pro"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:12
+msgid "Unlimited custom fields"
+msgstr "Câmpuri particularizate nelimitate"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:13
+msgid "User-entered amounts"
+msgstr "Folosește sumele introduse"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:15
+msgid "On-site checkout (no redirect)"
+msgstr "Checkout la fața locului (fără redirecționare)"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:16
+msgid "Embedded & overlay forms"
+msgstr "Formulare încorporate și suprapuse"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:17
+msgid "Apple Pay & Google Pay"
+msgstr "Apple Pay/Google Pay"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:18
+msgid "Stripe Subscription support"
+msgstr "Opțiuni abonare suport Stripe"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:35
+msgid "Plus or higher license required"
+msgstr "Licență necesară pentru Plus sau mai mare"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:39
+msgid "Docs"
+msgstr "Documente"
+
+#: includes/core/admin/notices/promos/general/sidebar.php:42
+msgid "Your Stripe Dashboard"
+msgstr "Tabloul de bord Stripe"
+
+#: includes/core/admin/pages/class-display.php:37
+#: includes/core/class-installation.php:64
+msgid "Payment Confirmation"
+msgstr "Confirmare plată"
+
+#: includes/core/admin/pages/class-display.php:38
+msgid "Help docs for Payment Confirmation Settings"
+msgstr "Documentație pentru setările confirmării de plată"
+
+#: includes/core/admin/pages/class-display.php:59
+msgid "Payment Confirmation Messages"
+msgstr "Mesajele de confirmare a plății"
+
+#: includes/core/admin/pages/class-display.php:89
+msgid "Configure your payment confirmation <em>page</em> below."
+msgstr "Configuraţi confirmarea de plată a <em>paginii</em> de mai jos."
+
+#: includes/core/admin/pages/class-display.php:90
+msgid "See how to configure email receipts in Stripe."
+msgstr "Consultați cum se configurează confirmările pe email în Stripe."
+
+#: includes/core/admin/pages/class-display.php:101
+msgid "One-Time Payment"
+msgstr "Plată unică"
+
+#: includes/core/admin/pages/class-display.php:136
+msgid "Enter what your customers will see after a successful one-time payment."
+msgstr "Introduceți ce vor vedea clienții după o plată unică reușită."
+
+#: includes/core/admin/pages/class-display.php:137
+#: includes/pro/admin/class-pages.php:121
+#: includes/pro/admin/class-pages.php:149
+msgid "Available template tags:"
+msgstr "Etichete disponibile pentru machetă:"
+
+#: includes/core/admin/pages/class-display.php:138
+msgid "The form's Item Description value."
+msgstr "Valoarea din formular pentru descrierea produsului."
+
+#: includes/core/admin/pages/class-display.php:139
+msgid "The form's Company Name value."
+msgstr "Valoarea din formular pentru numele firmei."
+
+#: includes/core/admin/pages/class-display.php:140
+msgid "The total price of the payment."
+msgstr "Suma totală a plăţii."
+
+#: includes/core/admin/pages/class-display.php:141
+msgid "The charge date returned from Stripe."
+msgstr "Data plăţii returnată de Stripe."
+
+#: includes/core/admin/pages/class-display.php:142
+msgid "The unique charge ID returned from Stripe."
+msgstr "ID-ul unic al tranzacției returnate de Stripe."
+
+#. translators: %1$s Opening anchor tag for template tag documentation, do not
+#. translate. %2$s Closing anchor tag, do not translate.
+#: includes/core/admin/pages/class-display.php:151
+#: includes/pro/admin/class-pages.php:131
+#: includes/pro/admin/class-pages.php:158
+msgid "For additional template tags, see the %1$sdocumentation%2$s."
+msgstr "Pentru tag-uri șablon suplimentare, consultați %1$sdocumentation%2$s."
+
+#: includes/core/admin/pages/class-general.php:37
+#: includes/core/admin/pages/class-general.php:59
+msgid "General"
+msgstr "General"
+
+#: includes/core/admin/pages/class-general.php:38
+msgid "Help docs for General Settings"
+msgstr "Documentație pentru setările generale"
+
+#: includes/core/admin/pages/class-general.php:62
+msgid "Currency Options"
+msgstr "Opțiuni valută"
+
+#: includes/core/admin/pages/class-general.php:65
+msgid "Styles"
+msgstr "Stiluri"
+
+#: includes/core/admin/pages/class-general.php:68
+msgid "Other"
+msgstr "Altele"
+
+#: includes/core/admin/pages/class-general.php:108
+msgid ""
+"The page customers are sent to after completing a payment. The shortcode %s "
+"needs to be on this page. Output configured in the Payment Confirmation "
+"settings. This page should be excluded from any site caching."
+msgstr ""
+"Pagina la care sunt trimiși clienții după completarea unei plăți. Codul "
+"scurt %s trebuie să fie prezent în această pagină. Formatul acesteia este "
+"configurat în pagina de confirmare a plății. Această pagină trebuie exclusă "
+"din orice cache al website-ului."
+
+#: includes/core/admin/pages/class-general.php:111
+msgid "Payment Failure Page"
+msgstr "Pagina de plată eșuată"
+
+#: includes/core/admin/pages/class-general.php:119
+msgid "The page customers are sent to after a failed payment."
+msgstr "Pagina unde sunt trimiși clienții după o plată eșuată."
+
+#: includes/core/admin/pages/class-general.php:122
+msgid "Payment Cancelled Page"
+msgstr "Pagină Plată Anulată"
+
+#: includes/core/admin/pages/class-general.php:132
+msgid ""
+"The page customers are sent to after a cancelling a Stripe.com Checkout "
+"Session."
+msgstr ""
+"Clienții paginii sunt trimiși aici după o sesiune de plată anulată la Stripe."
+"com."
+
+#: includes/core/admin/pages/class-general.php:152
+msgid "Currency"
+msgstr "Valute"
+
+#: includes/core/admin/pages/class-general.php:164
+msgid "Currency Position"
+msgstr "Poziția semnului valutei"
+
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+#: includes/core/admin/pages/class-general.php:169
+msgid "Left (%1$s%2$s)"
+msgstr "Stânga (%1$s%2$s)"
+
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+#: includes/core/admin/pages/class-general.php:171
+msgid "Right (%1$s%2$s)"
+msgstr "Dreapta (%1$s%2$s)"
+
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+#: includes/core/admin/pages/class-general.php:173
+msgid "Left with Space (%1$s %2$s)"
+msgstr "Stânga cu spațiu (%1$s %2$s)"
+
+#. translators: 1. Saved Currency Symbol, 2. Formatted Amount value
+#: includes/core/admin/pages/class-general.php:175
+msgid "Right with Space (%1$s %2$s)"
+msgstr "Dreapta cu spațiu (%1$s %2$s)"
+
+#: includes/core/admin/pages/class-general.php:183
+msgid "Separators"
+msgstr "Separatori"
+
+#: includes/core/admin/pages/class-general.php:188
+msgid ""
+"Use a comma when formatting decimal amounts and use a period to separate "
+"thousands."
+msgstr ""
+"Folosiți o virgulă la formatarea zecimalelor și un punct la separarea miilor."
+
+#. translators: 1. Example amount formatted with comma (,) as decimal
+#. separator, 2. Example amount formatted with period (.) as decimal separator
+#: includes/core/admin/pages/class-general.php:190
+msgid "If enabled, amounts will be formatted as \"%1$s\" instead of \"%2$s\"."
+msgstr ""
+"Dacă este activat, sumele vor fi formatate ca \"%1$s\" în loc de \"%2$s\"."
+
+#: includes/core/admin/pages/class-general.php:198
+msgid "Opinionated Styles"
+msgstr "Stiluri opinionate"
+
+#: includes/core/admin/pages/class-general.php:204
+#: includes/core/admin/pages/class-keys.php:193
+#: includes/core/admin/pages/class-system-status.php:590
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:278
+msgid "Enabled"
+msgstr "Activat"
+
+#: includes/core/admin/pages/class-general.php:205
+#: includes/core/admin/pages/class-keys.php:194
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:37
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:279
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#. translators: Plugin name
+#: includes/core/admin/pages/class-general.php:210
+msgid "Automatically apply %1$s styles to payment form fields and buttons."
+msgstr ""
+"Aplicați automat stiluri %1$s la câmpurile și butoanele formularului de "
+"plată."
+
+#: includes/core/admin/pages/class-general.php:210
+msgid "Styles on the Stripe.com Checkout page cannot be changed."
+msgstr "Stilurile din pagina Stripe.com Checkout nu se pot modifica."
+
+#: includes/core/admin/pages/class-general.php:218
+msgid "Save Settings"
+msgstr "Salvează setări"
+
+#: includes/core/admin/pages/class-general.php:224
+msgid ""
+"If UN-checked, all %s plugin data will be removed when the plugin is "
+"deleted. However, your data saved with Stripe will not be deleted."
+msgstr ""
+"Dacă este NE-bifat, toate datele plugin-ului %s vor fi înlăturate când "
+"plugin-ul este șters. Oricum, datele salvate de la Stripe nu vor fi șterse."
+
+#: includes/core/admin/pages/class-general.php:241
+msgid "United Arab Emirates Dirham"
+msgstr "Dirham Emiratele Arabe Unite"
+
+#: includes/core/admin/pages/class-general.php:242
+msgid "Afghan Afghani"
+msgstr "Afghani Afganistanian"
+
+#: includes/core/admin/pages/class-general.php:243
+msgid "Albanian Lek"
+msgstr "Lek Albanez"
+
+#: includes/core/admin/pages/class-general.php:244
+msgid "Armenian Dram"
+msgstr "Dram Armenian"
+
+#: includes/core/admin/pages/class-general.php:245
+msgid "Netherlands Antillean Gulden"
+msgstr "Gulden Antilele Olandeze"
+
+#: includes/core/admin/pages/class-general.php:246
+msgid "Angolan Kwanza"
+msgstr "Kwanza Angolez"
+
+#: includes/core/admin/pages/class-general.php:247
+msgid "Argentine Peso"
+msgstr "Peso Argentinian"
+
+#: includes/core/admin/pages/class-general.php:248
+msgid "Australian Dollar"
+msgstr "Dolar Australian"
+
+#: includes/core/admin/pages/class-general.php:249
+msgid "Aruban Florin"
+msgstr "Florin Arubian"
+
+#: includes/core/admin/pages/class-general.php:250
+msgid "Azerbaijani Manat"
+msgstr "Manat Azerbaijanian"
+
+#: includes/core/admin/pages/class-general.php:251
+msgid "Bosnia & Herzegovina Convertible Mark"
+msgstr "Marcă convertibila Boznia și Herțegovina"
+
+#: includes/core/admin/pages/class-general.php:252
+msgid "Barbadian Dollar"
+msgstr "Dolar Barbadian"
+
+#: includes/core/admin/pages/class-general.php:253
+msgid "Bangladeshi Taka"
+msgstr "Taka Bangladeș"
+
+#: includes/core/admin/pages/class-general.php:254
+#: includes/core/functions/shared.php:506
+msgid "Burundian Franc"
+msgstr "Franc Burundian"
+
+#: includes/core/admin/pages/class-general.php:255
+msgid "Bulgarian Lev"
+msgstr "Leva Bulgărească"
+
+#: includes/core/admin/pages/class-general.php:256
+msgid "Bermudian Dollar"
+msgstr "Dolar Bermudian"
+
+#: includes/core/admin/pages/class-general.php:257
+msgid "Brunei Dollar"
+msgstr "Dolar Brunei"
+
+#: includes/core/admin/pages/class-general.php:258
+msgid "Bolivian Boliviano"
+msgstr "Boliviano Bolivian"
+
+#: includes/core/admin/pages/class-general.php:259
+msgid "Brazilian Real"
+msgstr "Real Brazilian"
+
+#: includes/core/admin/pages/class-general.php:260
+msgid "Bahamian Dollar"
+msgstr "Dolar Bahamas"
+
+#: includes/core/admin/pages/class-general.php:261
+msgid "Botswana Pula"
+msgstr "Pula Botswana"
+
+#: includes/core/admin/pages/class-general.php:262
+msgid "Belize Dollar"
+msgstr "Dolar Belize"
+
+#: includes/core/admin/pages/class-general.php:263
+msgid "Canadian Dollar"
+msgstr "Dolar Canadian"
+
+#: includes/core/admin/pages/class-general.php:264
+msgid "Congolese Franc"
+msgstr "Franc Congolez"
+
+#: includes/core/admin/pages/class-general.php:265
+msgid "Swiss Franc"
+msgstr "Franc Elvetian"
+
+#: includes/core/admin/pages/class-general.php:266
+#: includes/core/functions/shared.php:507
+msgid "Chilean Peso"
+msgstr "Peso Chilean"
+
+#: includes/core/admin/pages/class-general.php:267
+msgid "Chinese Renminbi Yuan"
+msgstr "Renminbi Yuan Chinezesc"
+
+#: includes/core/admin/pages/class-general.php:268
+msgid "Colombian Peso"
+msgstr "Peso Columbian"
+
+#: includes/core/admin/pages/class-general.php:269
+msgid "Costa Rican Colón"
+msgstr "Colon Costa Rican"
+
+#: includes/core/admin/pages/class-general.php:270
+msgid "Cape Verdean Escudo"
+msgstr "Escudo Cape Verde"
+
+#: includes/core/admin/pages/class-general.php:271
+msgid "Czech Koruna"
+msgstr "Koruna Ceh"
+
+#: includes/core/admin/pages/class-general.php:272
+#: includes/core/functions/shared.php:508
+msgid "Djiboutian Franc"
+msgstr "Franc Djibutian"
+
+#: includes/core/admin/pages/class-general.php:273
+msgid "Danish Krone"
+msgstr "Coroană Daneză"
+
+#: includes/core/admin/pages/class-general.php:274
+msgid "Dominican Peso"
+msgstr "Peso Dominican"
+
+#: includes/core/admin/pages/class-general.php:275
+msgid "Algerian Dinar"
+msgstr "Dinar Algerian"
+
+#: includes/core/admin/pages/class-general.php:276
+msgid "Egyptian Pound"
+msgstr "Lira Egipteana"
+
+#: includes/core/admin/pages/class-general.php:277
+msgid "Ethiopian Birr"
+msgstr "Birr Etiopian"
+
+#: includes/core/admin/pages/class-general.php:278
+msgid "Euro"
+msgstr "Euro"
+
+#: includes/core/admin/pages/class-general.php:279
+msgid "Fijian Dollar"
+msgstr "Dolar Fijian"
+
+#: includes/core/admin/pages/class-general.php:280
+msgid "Falkland Islands Pound"
+msgstr "Lira Insulele Falkland"
+
+#: includes/core/admin/pages/class-general.php:281
+msgid "British Pound"
+msgstr "Lira Englezeasca"
+
+#: includes/core/admin/pages/class-general.php:282
+msgid "Georgian Lari"
+msgstr "Lari Georgian"
+
+#: includes/core/admin/pages/class-general.php:283
+msgid "Gibraltar Pound"
+msgstr "Lira Gibraltar"
+
+#: includes/core/admin/pages/class-general.php:284
+msgid "Gambian Dalasi"
+msgstr "Dalasi Gambian"
+
+#: includes/core/admin/pages/class-general.php:285
+#: includes/core/functions/shared.php:509
+msgid "Guinean Franc"
+msgstr "Franc Guinean"
+
+#: includes/core/admin/pages/class-general.php:286
+msgid "Guatemalan Quetzal"
+msgstr "Quetzal Guatemalian"
+
+#: includes/core/admin/pages/class-general.php:287
+msgid "Guyanese Dollar"
+msgstr "Dolar Guyanez"
+
+#: includes/core/admin/pages/class-general.php:288
+msgid "Hong Kong Dollar"
+msgstr "Dolar Hong Kong"
+
+#: includes/core/admin/pages/class-general.php:289
+msgid "Honduran Lempira"
+msgstr "Lempira Honduras"
+
+#: includes/core/admin/pages/class-general.php:290
+msgid "Croatian Kuna"
+msgstr "Kuna Croată"
+
+#: includes/core/admin/pages/class-general.php:291
+msgid "Haitian Gourde"
+msgstr "Gourd Haitian"
+
+#: includes/core/admin/pages/class-general.php:292
+msgid "Hungarian Forint"
+msgstr "Forint Unguresc"
+
+#: includes/core/admin/pages/class-general.php:293
+msgid "Indonesian Rupiah"
+msgstr "Rupie Indoneziană"
+
+#: includes/core/admin/pages/class-general.php:294
+msgid "Israeli New Sheqel"
+msgstr "Noul Șekel Israelian"
+
+#: includes/core/admin/pages/class-general.php:295
+msgid "Indian Rupee"
+msgstr "Rupie Indiană"
+
+#: includes/core/admin/pages/class-general.php:296
+msgid "Icelandic Króna"
+msgstr "Coroană Islandeză"
+
+#: includes/core/admin/pages/class-general.php:297
+msgid "Jamaican Dollar"
+msgstr "Dolar Jamaican"
+
+#: includes/core/admin/pages/class-general.php:298
+#: includes/core/functions/shared.php:510
+msgid "Japanese Yen"
+msgstr "Yen Japonez"
+
+#: includes/core/admin/pages/class-general.php:299
+msgid "Kenyan Shilling"
+msgstr "Șiling Kenian"
+
+#: includes/core/admin/pages/class-general.php:300
+msgid "Kyrgyzstani Som"
+msgstr "Som Kirghizstan"
+
+#: includes/core/admin/pages/class-general.php:301
+msgid "Cambodian Riel"
+msgstr "Riel Cambogian"
+
+#: includes/core/admin/pages/class-general.php:302
+#: includes/core/functions/shared.php:511
+msgid "Comorian Franc"
+msgstr "Franc Comore"
+
+#: includes/core/admin/pages/class-general.php:303
+#: includes/core/functions/shared.php:512
+msgid "South Korean Won"
+msgstr "Won Sud Coreean"
+
+#: includes/core/admin/pages/class-general.php:304
+msgid "Cayman Islands Dollar"
+msgstr "Dolar Insulele Cayman"
+
+#: includes/core/admin/pages/class-general.php:305
+msgid "Kazakhstani Tenge"
+msgstr "Tenge Kazahstan"
+
+#: includes/core/admin/pages/class-general.php:306
+msgid "Lao Kip"
+msgstr "Kip Laosian"
+
+#: includes/core/admin/pages/class-general.php:307
+msgid "Lebanese Pound"
+msgstr "Lira Libaneza"
+
+#: includes/core/admin/pages/class-general.php:308
+msgid "Sri Lankan Rupee"
+msgstr "Rupie Sri Lanka"
+
+#: includes/core/admin/pages/class-general.php:309
+msgid "Liberian Dollar"
+msgstr "Dolar Liberian"
+
+#: includes/core/admin/pages/class-general.php:310
+msgid "Lesotho Loti"
+msgstr "Loti Lesothian"
+
+#: includes/core/admin/pages/class-general.php:311
+msgid "Moroccan Dirham"
+msgstr "Dirham Marocan"
+
+#: includes/core/admin/pages/class-general.php:312
+msgid "Moldovan Leu"
+msgstr "Leu Moldovenesc"
+
+#: includes/core/admin/pages/class-general.php:313
+#: includes/core/functions/shared.php:513
+msgid "Malagasy Ariary"
+msgstr "Ariary Malgaș"
+
+#: includes/core/admin/pages/class-general.php:314
+msgid "Macedonian Denar"
+msgstr "Dinar Macedonian"
+
+#: includes/core/admin/pages/class-general.php:315
+msgid "Mongolian Tögrög"
+msgstr "Togrog Mongolez"
+
+#: includes/core/admin/pages/class-general.php:316
+msgid "Macanese Pataca"
+msgstr "Pataca Macao"
+
+#: includes/core/admin/pages/class-general.php:317
+msgid "Mauritanian Ouguiya"
+msgstr "Ouguiya Mauritanian"
+
+#: includes/core/admin/pages/class-general.php:318
+msgid "Mauritian Rupee"
+msgstr "Rupie Mauritiu"
+
+#: includes/core/admin/pages/class-general.php:319
+msgid "Maldivian Rufiyaa"
+msgstr "Rufiyaa Maldive"
+
+#: includes/core/admin/pages/class-general.php:320
+msgid "Malawian Kwacha"
+msgstr "Kwacha Malawian"
+
+#: includes/core/admin/pages/class-general.php:321
+msgid "Mexican Peso"
+msgstr "Peso Mexican"
+
+#: includes/core/admin/pages/class-general.php:322
+msgid "Malaysian Ringgit"
+msgstr "Ringgit Malaezian"
+
+#: includes/core/admin/pages/class-general.php:323
+msgid "Mozambican Metical"
+msgstr "Metical Mozambican"
+
+#: includes/core/admin/pages/class-general.php:324
+msgid "Namibian Dollar"
+msgstr "Dolar Namibian"
+
+#: includes/core/admin/pages/class-general.php:325
+msgid "Nigerian Naira"
+msgstr "Naira Nigerian"
+
+#: includes/core/admin/pages/class-general.php:326
+msgid "Nicaraguan Córdoba"
+msgstr "Cordoba Nicaraguană"
+
+#: includes/core/admin/pages/class-general.php:327
+msgid "Norwegian Krone"
+msgstr "Coroană Norvegiană"
+
+#: includes/core/admin/pages/class-general.php:328
+msgid "Nepalese Rupee"
+msgstr "Rupie Nepaleză"
+
+#: includes/core/admin/pages/class-general.php:329
+msgid "New Zealand Dollar"
+msgstr "Dolar Noua Zeelandă"
+
+#: includes/core/admin/pages/class-general.php:330
+msgid "Panamanian Balboa"
+msgstr "Balboa Panameză"
+
+#: includes/core/admin/pages/class-general.php:331
+msgid "Peruvian Nuevo Sol"
+msgstr "Noul Soare Peruvian"
+
+#: includes/core/admin/pages/class-general.php:332
+msgid "Papua New Guinean Kina"
+msgstr "Kina Papua Noua Guinee"
+
+#: includes/core/admin/pages/class-general.php:333
+msgid "Philippine Peso"
+msgstr "Peso Filipinez"
+
+#: includes/core/admin/pages/class-general.php:334
+msgid "Pakistani Rupee"
+msgstr "Rupie Pakistaneză"
+
+#: includes/core/admin/pages/class-general.php:335
+msgid "Polish Złoty"
+msgstr "Zlot Polonez"
+
+#: includes/core/admin/pages/class-general.php:336
+#: includes/core/functions/shared.php:514
+msgid "Paraguayan Guaraní"
+msgstr "Guarani Paraguayan"
+
+#: includes/core/admin/pages/class-general.php:337
+msgid "Qatari Riyal"
+msgstr "Riyal Qatar"
+
+#: includes/core/admin/pages/class-general.php:338
+msgid "Romanian Leu"
+msgstr "Leu Românesc"
+
+#: includes/core/admin/pages/class-general.php:339
+msgid "Serbian Dinar"
+msgstr "Dinar Sârbesc"
+
+#: includes/core/admin/pages/class-general.php:340
+msgid "Russian Ruble"
+msgstr "Rublă Rusească"
+
+#: includes/core/admin/pages/class-general.php:341
+#: includes/core/functions/shared.php:515
+msgid "Rwandan Franc"
+msgstr "Franc Ruandez"
+
+#: includes/core/admin/pages/class-general.php:342
+msgid "Saudi Riyal"
+msgstr "Riyal Saudit"
+
+#: includes/core/admin/pages/class-general.php:343
+msgid "Solomon Islands Dollar"
+msgstr "Dolar Insulele Solomon"
+
+#: includes/core/admin/pages/class-general.php:344
+msgid "Seychellois Rupee"
+msgstr "Rupie Seychelles"
+
+#: includes/core/admin/pages/class-general.php:345
+msgid "Swedish Krona"
+msgstr "Coroană Suedeză"
+
+#: includes/core/admin/pages/class-general.php:346
+msgid "Singapore Dollar"
+msgstr "Dolar Singapore"
+
+#: includes/core/admin/pages/class-general.php:347
+msgid "Saint Helenian Pound"
+msgstr "Lira Sf. Elena"
+
+#: includes/core/admin/pages/class-general.php:348
+msgid "Sierra Leonean Leone"
+msgstr "Leone Sierra Leone"
+
+#: includes/core/admin/pages/class-general.php:349
+msgid "Somali Shilling"
+msgstr "Șiling Somalez"
+
+#: includes/core/admin/pages/class-general.php:350
+msgid "Surinamese Dollar"
+msgstr "Dolar Surinam"
+
+#: includes/core/admin/pages/class-general.php:351
+msgid "São Tomé and Príncipe Dobra"
+msgstr "Dobra Sao Tome și Principe"
+
+#: includes/core/admin/pages/class-general.php:352
+msgid "Salvadoran Colón"
+msgstr "Colon Salvadorian"
+
+#: includes/core/admin/pages/class-general.php:353
+msgid "Swazi Lilangeni"
+msgstr "Lilangeni Swaziland"
+
+#: includes/core/admin/pages/class-general.php:354
+msgid "Thai Baht"
+msgstr "Baht Tailandez"
+
+#: includes/core/admin/pages/class-general.php:355
+msgid "Tajikistani Somoni"
+msgstr "Somoni Tadjikistan"
+
+#: includes/core/admin/pages/class-general.php:356
+msgid "Tongan Paʻanga"
+msgstr "Pa'anga Tonga"
+
+#: includes/core/admin/pages/class-general.php:357
+msgid "Turkish Lira"
+msgstr "Lira Turcească"
+
+#: includes/core/admin/pages/class-general.php:358
+msgid "Trinidad and Tobago Dollar"
+msgstr "Dolar Trinidad și Tobago"
+
+#: includes/core/admin/pages/class-general.php:359
+msgid "New Taiwan Dollar"
+msgstr "Noul Dolar Taiwanez"
+
+#: includes/core/admin/pages/class-general.php:360
+msgid "Tanzanian Shilling"
+msgstr "Șiling Tanzanian"
+
+#: includes/core/admin/pages/class-general.php:361
+msgid "Ukrainian Hryvnia"
+msgstr "Hryvna Ucraineană"
+
+#: includes/core/admin/pages/class-general.php:362
+msgid "Ugandan Shilling"
+msgstr "Șiling Ugandez"
+
+#: includes/core/admin/pages/class-general.php:363
+msgid "United States Dollar"
+msgstr "Dolar American"
+
+#: includes/core/admin/pages/class-general.php:364
+msgid "Uruguayan Peso"
+msgstr "Peso Uruguaian"
+
+#: includes/core/admin/pages/class-general.php:365
+msgid "Uzbekistani Som"
+msgstr "Som Uzbekistanez"
+
+#: includes/core/admin/pages/class-general.php:366
+msgid "Vietnamese Đồng"
+msgstr "Dong Vietnamez"
+
+#: includes/core/admin/pages/class-general.php:367
+#: includes/core/functions/shared.php:517
+msgid "Vanuatu Vatu"
+msgstr "Vatu Vanuatu"
+
+#: includes/core/admin/pages/class-general.php:368
+msgid "Samoan Tala"
+msgstr "Tala Samoană"
+
+#: includes/core/admin/pages/class-general.php:369
+#: includes/core/functions/shared.php:518
+msgid "Central African Cfa Franc"
+msgstr "Cfa Franc Africa Centrală"
+
+#: includes/core/admin/pages/class-general.php:370
+msgid "East Caribbean Dollar"
+msgstr "Dolar Caraibe Est"
+
+#: includes/core/admin/pages/class-general.php:371
+#: includes/core/functions/shared.php:519
+msgid "West African Cfa Franc"
+msgstr "Cfa Franc Africa de Vest"
+
+#: includes/core/admin/pages/class-general.php:372
+#: includes/core/functions/shared.php:520
+msgid "Cfp Franc"
+msgstr "Franc Cfp"
+
+#: includes/core/admin/pages/class-general.php:373
+msgid "Yemeni Rial"
+msgstr "Rial Yemenez"
+
+#: includes/core/admin/pages/class-general.php:374
+msgid "South African Rand"
+msgstr "Rand Sud African"
+
+#: includes/core/admin/pages/class-general.php:375
+msgid "Zambian Kwacha"
+msgstr "Kwacha Zambiană"
+
+#: includes/core/admin/pages/class-keys.php:37
+msgid "Stripe Setup"
+msgstr "Setări Stripe"
+
+#: includes/core/admin/pages/class-keys.php:38
+msgid "Help docs for Stripe Keys Settings"
+msgstr "Documentație pentru setările cheilor Stripe"
+
+#: includes/core/admin/pages/class-keys.php:102
+#: includes/core/stripe-connect/admin.php:220
+msgid "test"
+msgstr "test"
+
+#: includes/core/admin/pages/class-keys.php:102
+#: includes/core/stripe-connect/admin.php:220
+msgid "live"
+msgstr "live"
+
+#: includes/core/admin/pages/class-keys.php:106
+msgid "Retrieving account information..."
+msgstr "Se regăsesc informațiile contului..."
+
+#. translators: %1$s Stripe payment mode. %2$s Opening anchor tag for
+#. reconnecting to Stripe, do not translate. %3$s Opening anchor tag for
+#. disconnecting Stripe, do not translate. %4$s Closing anchor tag, do not
+#. translate.
+#: includes/core/admin/pages/class-keys.php:114
+msgid "%2$sReconnect in %1$s mode%4$s, or %3$sdisconnect this account%4$s."
+msgstr "%2$sReconectează în%1$s modul%4$s, sau %3$sdeconectați acest cont%4$s."
+
+#. translators: %1$s Stripe payment mode. %2$s Opening anchor tag for
+#. reconnecting to Stripe, do not translate. %3$s Opening anchor tag for
+#. disconnecting Stripe, do not translate. %4$s Closing anchor tag, do not
+#. translate.
+#: includes/core/admin/pages/class-keys.php:123
+msgid ""
+"Your Stripe account is connected in %1$s mode. %2$sReconnect in %1$s mode"
+"%4$s, or %3$sdisconnect this account%4$s."
+msgstr ""
+"Contul tău Stripe este conectat în modul %1$s. %2$sReconectează în %1$s "
+"modul %4$s, sau %3$sdeconectează acest cont%4$s."
+
+#. translators: %1$s Stripe payment mode. %2$s Opening anchor tag for
+#. disconnecting Stripe, do not translate. %3$s Closing anchor tag, do not
+#. translate.
+#: includes/core/admin/pages/class-keys.php:132
+msgid ""
+"Your unsaved account is connected in %1$s mode. %2$sConnect to another "
+"account%3$s"
+msgstr ""
+"Contul nesalvat este conectat în %1$s modul %2$s Conectează-l la un alt cont"
+"%3$s"
+
+#. translators: %1$s Opening anchor tag for Stripe Connect documentation, do
+#. not translate. %2$s Closing anchor tag, do not translate.
+#: includes/core/admin/pages/class-keys.php:143
+msgid ""
+"Have questions about connecting with Stripe? See the %1$sdocumentation%2$s."
+msgstr "Ai intrebări despre conectarea cu Stripe? Vezi %1$sdocumentația%2$s."
+
+#: includes/core/admin/pages/class-keys.php:152
+msgid "Manage API keys manually"
+msgstr "Administrează Cheile API manual"
+
+#: includes/core/admin/pages/class-keys.php:153
+msgid "Hide API keys"
+msgstr "Ascunde Cheile API"
+
+#: includes/core/admin/pages/class-keys.php:158
+msgid "Connection Status"
+msgstr "Stare conexiune"
+
+#. translators: %1$s Opening anchor tag to Stripe Dashboard, do not translate.
+#. %2$s Closing anchor tag, do not translate.
+#: includes/core/admin/pages/class-keys.php:168
+msgid ""
+"While in test mode no live payments are processed. Make sure Test mode is "
+"enabled in your %1$sStripe dashboard%2$s to view your test transactions."
+msgstr ""
+"În modul test nu se procesează nici o plată reală. Asigurați-vă că Modul "
+"Test este activat în %1$stabloul de bord Stripe%2$s pentru a vedea "
+"tranzacțiile de test."
+
+#: includes/core/admin/pages/class-keys.php:175
+msgid ""
+"You just toggled payment modes. You may be required to reconnect to Stripe "
+"when your settings are saved."
+msgstr ""
+"Tocmai ai schimbat modurile de plată. Vei avea nevoie să te reconectezi la "
+"Stripe când setările tale vor fi salvate."
+
+#: includes/core/admin/pages/class-keys.php:189
+#: includes/core/admin/pages/class-system-status.php:168
+#: includes/core/functions/shared.php:305
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:57
+msgid "Test Mode"
+msgstr "Modul Test"
+
+#: includes/core/admin/pages/class-keys.php:213
+msgid "Test Publishable Key"
+msgstr "Cheie de publicare de test"
+
+#: includes/core/admin/pages/class-keys.php:224
+msgid "Test Secret Key"
+msgstr "Cheia secretă de test"
+
+#: includes/core/admin/pages/class-keys.php:239
+msgid "Live Publishable Key"
+msgstr "Cheia de publicare reală"
+
+#: includes/core/admin/pages/class-keys.php:250
+msgid "Live Secret Key"
+msgstr "Cheia secretă reală"
+
+#: includes/core/admin/pages/class-keys.php:265
+msgid "Account Country"
+msgstr "Țară contului"
+
+#: includes/core/admin/pages/class-keys.php:271
+msgid "The country associated with the connected Stripe account."
+msgstr "Țara asociată cu contul Stripe conectat."
+
+#: includes/core/admin/pages/class-keys.php:282
+msgid "Stripe Checkout Locale"
+msgstr "Localizare pentru pagina de plată Stripe"
+
+#: includes/core/admin/pages/class-keys.php:288
+msgid ""
+"Specify \"Auto-detect\" to display Stripe Checkout in the user's preferred "
+"language, if available."
+msgstr ""
+"Specificați \"detectare automată\" pentru a afișa Stripe Checkout în limba "
+"preferată a utilizatorului, dacă este disponibilă."
+
+#: includes/core/admin/pages/class-main.php:86
+msgid "Form Updated."
+msgstr "Formular actualizat."
+
+#: includes/core/admin/pages/class-main.php:90
+msgid "Draft saved."
+msgstr "Ciorna salvată."
+
+#: includes/core/admin/pages/class-main.php:199
+msgid "Edit Payment Form"
+msgstr "Editează formularul de plată"
+
+#: includes/core/admin/pages/class-main.php:233
+msgid "Add New Payment Form"
+msgstr "Adaugă un nou formular de plată"
+
+#: includes/core/admin/pages/class-main.php:260
+#: includes/core/admin/pages/class-main.php:261
+msgid "Enter title here"
+msgstr "Introduceți titlul aici"
+
+#: includes/core/admin/pages/class-main.php:304
+msgid "Create"
+msgstr "Crează"
+
+#: includes/core/admin/pages/class-main.php:306
+msgid "Update"
+msgstr "Actualizează"
+
+#: includes/core/admin/pages/class-main.php:323
+msgid "Save Draft"
+msgstr "Salvează Ciornă"
+
+#: includes/core/admin/pages/class-main.php:338
+#: includes/core/admin/tables/class-form-list-table.php:253
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: includes/core/admin/pages/class-main.php:339
+msgid "Preview saved changes"
+msgstr "Previzualizează modificările salvate"
+
+#: includes/core/admin/pages/class-main.php:348
+msgid "Status:"
+msgstr "Stare:"
+
+#: includes/core/admin/pages/class-main.php:374
+#: includes/core/admin/tables/class-form-list-table.php:818
+msgid "Move to Trash"
+msgstr "Mută la gunoi"
+
+#: includes/core/admin/pages/class-main.php:398
+msgid "Payment Form Shortcode"
+msgstr "Cod scurt pentru formularul de plată"
+
+#: includes/core/admin/pages/class-main.php:417
+#: includes/core/admin/tables/class-form-list-table.php:72
+#: includes/core/admin/tables/class-form-list-table.php:626
+#: includes/core/admin/tables/class-form-list-table.php:733
+msgid "Draft"
+msgstr "Ciornă"
+
+#: includes/core/admin/pages/class-main.php:419
+#: includes/core/admin/tables/class-form-list-table.php:67
+#: includes/core/admin/tables/class-form-list-table.php:735
+msgid "Published"
+msgstr "Publicat"
+
+#: includes/core/admin/pages/class-system-status.php:50
+msgid ""
+"Cannot test TLS 1.2 support until your Stripe Test Secret Key is entered."
+msgstr ""
+"Nu putem testa disponibilitatea TLS 1.2 până nu introduceți cheia de test "
+"secretă Stripe."
+
+#: includes/core/admin/pages/class-system-status.php:65
+msgid "TLS 1.2 is supported. No action required."
+msgstr "TLS 1.2 este disponibil. Nici o acțiune necesară."
+
+#: includes/core/admin/pages/class-system-status.php:74
+msgid "TLS 1.2 is not supported. You will need to upgrade your integration."
+msgstr "TLS 1.2 nu este disponibil. Este nevoie să actualizați integrarea dvs."
+
+#: includes/core/admin/pages/class-system-status.php:77
+msgid "See %1$s."
+msgstr "Vezi %1$s."
+
+#: includes/core/admin/pages/class-system-status.php:79
+msgid ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Please read "
+"this</a> for more information."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Vă rugăm să "
+"citiți aceasta</a> pentru mai multe informații."
+
+#: includes/core/admin/pages/class-system-status.php:98
+msgid "Please copy and paste this information when contacting support:"
+msgstr ""
+"Vă rugăm să copiați și să trimiteți informațiile acestea când contactați "
+"serviciul cu clienții:"
+
+#: includes/core/admin/pages/class-system-status.php:104
+msgid ""
+"You can also download your information as a text file to attach, or simply "
+"view it below."
+msgstr ""
+"De asemenea, puteți descărca informațiile dvs. într-un fișier text pentru a-"
+"l atașa, sau, mai simplu, îl puteți vedea dedesubt."
+
+#: includes/core/admin/pages/class-system-status.php:108
+msgid "Download System Report"
+msgstr "Descarcă raport sistem"
+
+#: includes/core/admin/pages/class-system-status.php:119
+msgid "WordPress Installation"
+msgstr "Instalare WordPress"
+
+#: includes/core/admin/pages/class-system-status.php:127
+msgid "Active Theme"
+msgstr "Temă activă"
+
+#: includes/core/admin/pages/class-system-status.php:131
+msgid "Active Plugins"
+msgstr "Plugin-uri active"
+
+#: includes/core/admin/pages/class-system-status.php:135
+msgid "Server Environment"
+msgstr "Mediul server-ului"
+
+#: includes/core/admin/pages/class-system-status.php:139
+msgid "Client Information"
+msgstr "Informații client"
+
+#: includes/core/admin/pages/class-system-status.php:154
+msgid "%s Version"
+msgstr "%s Versiune"
+
+#: includes/core/admin/pages/class-system-status.php:161
+msgid "Stripe TLS"
+msgstr "TLS Stripe"
+
+#: includes/core/admin/pages/class-system-status.php:172
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:57
+msgid "Live Mode"
+msgstr "Modul Real"
+
+#: includes/core/admin/pages/class-system-status.php:177
+msgid "Simple Pay Test or Live Mode"
+msgstr "Plătește Simplu Mod Test sau Real"
+
+#: includes/core/admin/pages/class-system-status.php:187
+#: includes/core/admin/pages/class-system-status.php:245
+#: includes/core/admin/pages/class-system-status.php:358
+#: includes/core/admin/pages/class-system-status.php:479
+#: includes/core/admin/pages/class-system-status.php:499
+#: includes/core/admin/pages/class-system-status.php:581
+#: includes/core/admin/pages/class-system-status.php:591
+#: includes/core/admin/pages/class-system-status.php:596
+#: includes/core/admin/pages/class-system-status.php:601
+#: includes/core/admin/pages/class-system-status.php:606
+msgid "No"
+msgstr "Nu"
+
+#: includes/core/admin/pages/class-system-status.php:199
+msgid ""
+"%1$s - It is recommendend to set memory to at least 40MB. See: <a href=\"%2$s"
+"\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing memory allocated "
+"to PHP</a>"
+msgstr ""
+"%1$s - Se recomandă setarea memoriei la cel puțin 40MB. Vedeți: <a href="
+"\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Mărirea memoriei "
+"alocate de PHP</a>"
+
+#: includes/core/admin/pages/class-system-status.php:211
+msgid "Site Name"
+msgstr "Nume Website"
+
+#: includes/core/admin/pages/class-system-status.php:216
+msgid "Home URL"
+msgstr "URL pagină principală"
+
+#: includes/core/admin/pages/class-system-status.php:221
+msgid "Site URL"
+msgstr "URL Website"
+
+#: includes/core/admin/pages/class-system-status.php:227
+msgid "SSL/HTTPS Enabled"
+msgstr "SSL/HTTPS Activat"
+
+#: includes/core/admin/pages/class-system-status.php:229
+msgid "No. SSL is required by Stripe for Live mode."
+msgstr "Nu. SSL este necesar pentru modul real Stripe."
+
+#: includes/core/admin/pages/class-system-status.php:233
+#: includes/core/admin/pages/class-system-status.php:320
+#: includes/core/admin/pages/class-system-status.php:340
+#: includes/core/admin/pages/class-system-status.php:416
+msgid "Version"
+msgstr "Versiune"
+
+#: includes/core/admin/pages/class-system-status.php:238
+msgid "Locale"
+msgstr "Localizare"
+
+#: includes/core/admin/pages/class-system-status.php:243
+msgid "Multisite"
+msgstr "Multisite"
+
+#: includes/core/admin/pages/class-system-status.php:249
+msgid "Permalinks"
+msgstr "Link-uri permanente"
+
+#: includes/core/admin/pages/class-system-status.php:255
+msgid "WP Memory Limit"
+msgstr "Limita de memorie WP"
+
+#: includes/core/admin/pages/class-system-status.php:261
+msgid "WP Debug Mode"
+msgstr "Modul de depanare WP"
+
+#: includes/core/admin/pages/class-system-status.php:266
+msgid "Script Debug"
+msgstr "Program depanare"
+
+#: includes/core/admin/pages/class-system-status.php:310
+#: includes/core/admin/pages/class-system-status.php:405
+msgid "%s is available"
+msgstr "%s este disponibil"
+
+#: includes/core/admin/pages/class-system-status.php:316
+#: includes/core/admin/pages/class-system-status.php:336
+#: includes/pro/admin/metaboxes/class-custom-fields.php:96
+msgid "Name"
+msgstr "Nume"
+
+#: includes/core/admin/pages/class-system-status.php:318
+#: includes/core/admin/pages/class-system-status.php:338
+#: includes/core/admin/pages/class-system-status.php:414
+msgid "Author"
+msgstr "Autor"
+
+#: includes/core/admin/pages/class-system-status.php:350
+msgid "Theme Information"
+msgstr "Informații temă"
+
+#: includes/core/admin/pages/class-system-status.php:356
+msgid "Child Theme"
+msgstr "Temă copil"
+
+#: includes/core/admin/pages/class-system-status.php:362
+msgid "Parent Theme"
+msgstr "Temă părinte"
+
+#: includes/core/admin/pages/class-system-status.php:438
+msgid ""
+"WordPress.org recommends upgrading to PHP 7 or higher for better security."
+msgstr ""
+"WordPress.org recomandă să actualizați la PHP 7 sau mai mare, pentru o mai "
+"bună securitate."
+
+#: includes/core/admin/pages/class-system-status.php:438
+msgid "Read more."
+msgstr "Citiți mai mult."
+
+#: includes/core/admin/pages/class-system-status.php:446
+msgid "Cannot connect to MySQL database."
+msgstr "Nu se poate conecta la baza de date MySQL."
+
+#: includes/core/admin/pages/class-system-status.php:459
+msgid "Server default timezone is %s - it should be UTC"
+msgstr "Timpul implicit al server-ului este %s - ar trebui să fie UTC"
+
+#: includes/core/admin/pages/class-system-status.php:526
+msgid "Web Server"
+msgstr "Server Web"
+
+#: includes/core/admin/pages/class-system-status.php:531
+msgid "PHP Version"
+msgstr "Versiune PHP"
+
+#: includes/core/admin/pages/class-system-status.php:537
+msgid "MySQL Version"
+msgstr "Versiune MySQL"
+
+#: includes/core/admin/pages/class-system-status.php:543
+msgid "Server Timezone"
+msgstr "Timpul Server-ului"
+
+#: includes/core/admin/pages/class-system-status.php:549
+msgid "Display Errors"
+msgstr "Afișează erori"
+
+#: includes/core/admin/pages/class-system-status.php:555
+msgid "Server PHP Memory Limit"
+msgstr "Limita de memorie PHP a server-ului"
+
+#: includes/core/admin/pages/class-system-status.php:560
+msgid "Upload Max Filesize"
+msgstr "Mărimea maximă de upload a fișierului"
+
+#: includes/core/admin/pages/class-system-status.php:565
+msgid "Post Max Size"
+msgstr "Mărimea maximă a postării"
+
+#: includes/core/admin/pages/class-system-status.php:570
+msgid "Max Execution Time"
+msgstr "Timpul de execuție maxim"
+
+#: includes/core/admin/pages/class-system-status.php:575
+msgid "Max Input Vars"
+msgstr "Numărul maxim de variabile de intrare"
+
+#: includes/core/admin/pages/class-system-status.php:580
+msgid "cURL Enabled"
+msgstr "cURL activat"
+
+#: includes/core/admin/pages/class-system-status.php:585
+msgid "cURL Version"
+msgstr "versiune cURL"
+
+#: includes/core/admin/pages/class-system-status.php:590
+msgid "Multibyte String"
+msgstr "String multibyte"
+
+#: includes/core/admin/pages/class-system-status.php:610
+msgid "WP Remote POST"
+msgstr "Trimitere POST în WP"
+
+#: includes/core/admin/pages/class-system-status.php:616
+msgid "WP Remote GET"
+msgstr "Trimitere GET în WP"
+
+#: includes/core/admin/pages/class-system-status.php:631
+msgid "Name:"
+msgstr "Nume:"
+
+#: includes/core/admin/pages/class-system-status.php:633
+msgid "Version:"
+msgstr "Versiune:"
+
+#: includes/core/admin/pages/class-system-status.php:635
+msgid "User Agent:"
+msgstr "Agent utilizator:"
+
+#: includes/core/admin/pages/class-system-status.php:637
+msgid "Platform:"
+msgstr "Platformă:"
+
+#: includes/core/admin/pages/class-system-status.php:645
+msgid "IP Address"
+msgstr "Adresă IP"
+
+#: includes/core/admin/pages/class-system-status.php:650
+msgid "Browser"
+msgstr "Navigator"
+
+#: includes/core/admin/tables/class-form-list-table.php:37
+msgid "Payment Form"
+msgstr "Formular de plată"
+
+#: includes/core/admin/tables/class-form-list-table.php:57
+msgid "All"
+msgstr "Toate"
+
+#: includes/core/admin/tables/class-form-list-table.php:77
+#: includes/core/admin/tables/class-form-list-table.php:211
+msgid "Trash"
+msgstr "Gunoi"
+
+#: includes/core/admin/tables/class-form-list-table.php:228
+msgid "Edit"
+msgstr "Editează"
+
+#: includes/core/admin/tables/class-form-list-table.php:276
+#: includes/core/admin/tables/class-form-list-table.php:811
+msgid "Restore"
+msgstr "Restaurează"
+
+#: includes/core/admin/tables/class-form-list-table.php:302
+#: includes/core/admin/tables/class-form-list-table.php:812
+msgid "Permanently Delete"
+msgstr "Șterge definitiv"
+
+#: includes/core/admin/tables/class-form-list-table.php:326
+msgid "Duplicate"
+msgstr "Duplică"
+
+#: includes/core/admin/tables/class-form-list-table.php:425
+msgid "Form duplicated."
+msgstr "Formular duplicat."
+
+#: includes/core/admin/tables/class-form-list-table.php:429
+msgid "An error occurred while trying to duplicate. Please try again."
+msgstr ""
+"O eroare a apărut în timp ce încercați să duplicați. Vă rugăm să încercați "
+"din nou."
+
+#: includes/core/admin/tables/class-form-list-table.php:499
+msgid "Form restored from the Trash."
+msgstr "Formular restaurat din gunoi."
+
+#: includes/core/admin/tables/class-form-list-table.php:518
+msgid "%d form restored from the Trash."
+msgid_plural "%d forms restored from the Trash."
+msgstr[0] "un formular restaurat din gunoi."
+msgstr[1] "%d formulare restaurate din gunoi."
+msgstr[2] "%d formulare restaurate din gunoi."
+
+#: includes/core/admin/tables/class-form-list-table.php:529
+msgid "Form moved to the Trash."
+msgstr "Formularul mutat la gunoi."
+
+#: includes/core/admin/tables/class-form-list-table.php:548
+msgid "%d form moved to the Trash."
+msgid_plural "%d forms moved to the Trash."
+msgstr[0] "un formular mutat la gunoi."
+msgstr[1] "%d formulare mutate la gunoi."
+msgstr[2] "%d formulare mutate la gunoi."
+
+#: includes/core/admin/tables/class-form-list-table.php:559
+msgid "Form permanently deleted."
+msgstr "Formular șters definitiv."
+
+#: includes/core/admin/tables/class-form-list-table.php:578
+msgid "%d form permanently delted."
+msgid_plural "%d forms permanently deleted."
+msgstr[0] "un formular șters definitiv."
+msgstr[1] "%d formulare șterse definitiv."
+msgstr[2] "%d formulare șterse definitiv."
+
+#: includes/core/admin/tables/class-form-list-table.php:601
+msgid "%d form permanently deleted."
+msgid_plural "%d forms permanently deleted."
+msgstr[0] "un formular șters definitiv."
+msgstr[1] "%d formulare șterse definitiv."
+msgstr[2] "%d formulare șterse definitiv."
+
+#: includes/core/admin/tables/class-form-list-table.php:608
+msgid "No forms found."
+msgstr "Nu s-a găsit nici un formular."
+
+#. translators: (no title) is the default placed in the dropdown for the form
+#. list button on posts/pages if the form was not named
+#: includes/core/admin/tables/class-form-list-table.php:620
+#: includes/core/functions/admin.php:149
+msgid "(no title)"
+msgstr "(fără titlu)"
+
+#: includes/core/admin/tables/class-form-list-table.php:662
+msgid "Search"
+msgstr "Caută"
+
+#: includes/core/admin/tables/class-form-list-table.php:685
+msgid "Empty Trash"
+msgstr "Golește gunoi"
+
+#: includes/core/admin/tables/class-form-list-table.php:778
+msgid "Title"
+msgstr "Titlu"
+
+#: includes/core/admin/tables/class-form-list-table.php:779
+msgid "Shortcode"
+msgstr "Cod scurt"
+
+#: includes/core/admin/tables/class-form-list-table.php:780
+#: includes/pro/admin/metaboxes/class-custom-fields.php:209
+msgid "Date"
+msgstr "Dată"
+
+#: includes/core/admin/tables/class-form-list-table.php:891
+msgid "Not authorized"
+msgstr "Neautorizat"
+
+#: includes/core/admin/tables/class-form-list-table.php:900
+#: includes/core/admin/tables/class-form-list-table.php:909
+#: includes/core/admin/tables/class-form-list-table.php:918
+msgid "Not Authorized"
+msgstr "Neautorizat"
+
+#: includes/core/admin/usage-tracking/functions.php:200
+msgid "Save 10% on WP Simple Pay Pro"
+msgstr "Economisiți 10% pe WP simple Pay Pro"
+
+#: includes/core/admin/usage-tracking/functions.php:203
+msgid ""
+"Do you want to help us make WP Simple Pay even better? Enabling usage "
+"analytics helps us better determine new features and improvements to make. "
+"In turn, you get the most out of each and every update to WP Simple Pay."
+msgstr ""
+"Vrei să ne ajuți să facem WP simple Pay chiar mai bine? Activarea analizelor "
+"de utilizare ne ajută să determinăm mai bine noile caracteristici și "
+"îmbunătățiri de făcut. La rândul tău, veți obține cel mai mult din fiecare "
+"actualizare la WP simple Pay."
+
+#. translators: %1$s Opening <strong> tag, do not translate. %2$s Closing
+#. </strong> tag, do not translate. %1$s Opening <a> tag, do not translate.
+#. %4$s Closing <a> tag, do not translate.
+#: includes/core/admin/usage-tracking/functions.php:211
+msgid ""
+"Subscribe now and we will immediately send a %1$s10&#37; off%2$s discount "
+"code to your inbox. This code can be used to upgrade to any WP Simple Pay "
+"Pro license. No sensitive data is ever collected or stored. You may "
+"unsubscribe at anytime."
+msgstr ""
+"Aboneaza-te acum si vom trimite imediat un %1$s10 & #37; %2$s cod de "
+"reducere în Inbox-ul tău. Acest cod poate fi folosit pentru a face upgrade "
+"la orice licență WP Simple Pay Pro. Nu sunt colectate sau stocate date "
+"sensibile. Vă puteți dezabona oricând."
+
+#: includes/core/admin/usage-tracking/functions.php:230
+msgid "First Name"
+msgstr "Prenume"
+
+#: includes/core/admin/usage-tracking/functions.php:234
+msgid "Email Address"
+msgstr "Adresă email"
+
+#: includes/core/admin/usage-tracking/functions.php:238
+msgid "Yes, enable and send me the coupon!"
+msgstr "Da, permite și trimite-mi cupon!"
+
+#: includes/core/admin/usage-tracking/functions.php:244
+msgid "No thanks"
+msgstr "Nu, mulțumesc"
+
+#: includes/core/admin/usage-tracking/functions.php:266
+msgid "Usage Tracking"
+msgstr "Urmărirea utilizării"
+
+#: includes/core/admin/usage-tracking/functions.php:267
+msgid "Allow"
+msgstr "Permite"
+
+#: includes/core/admin/usage-tracking/functions.php:273
+msgid ""
+"Your site will be considered as we evaluate new features and determine the "
+"best improvements to make. No sensitive data is tracked."
+msgstr ""
+"Site-ul tău va fi considerat când vom evalua noi caracteristici și vom "
+"determina cele mai bune îmbunătățiri de realizat. Nu sunt urmărite date "
+"sensibile."
+
+#. translators: %1$s Plugin name, do not translate. %2$s Requirement name, do
+#. not translate.
+#: includes/core/bootstrap/compatibility.php:141
+msgid "Need help with your server? Ask your web host!"
+msgstr "Aveți nevoie de ajutor cu serverul dvs.? Întrebați gazda dvs. web!"
+
+#: includes/core/bootstrap/compatibility.php:156
+msgid ""
+"Many web hosts can give you instructions on how/where to upgrade your server "
+"through their control panel, or may even be able to do it for you. If you "
+"need to change hosts, please see %1$sour hosting recommendations%2$s."
+msgstr ""
+"Multe gazde web îți pot oferi instrucțiuni despre cum/unde să actualizezi "
+"server-ul prin intermediul panoului lor de control, sau pot fi în măsură să "
+"o facă pentru tine. Dacă ai nevoie să schimbi gazda web, te rugăm să "
+"consulți %1$s recomandările noastre de hosting%2$s."
+
+#: includes/core/class-cron.php:42
+msgid "Once a Week"
+msgstr "O dată pe săptămână"
+
+#: includes/core/class-cron.php:47
+msgid "Every 23 Hours"
+msgstr "La fiecare 23 de ore"
+
+#: includes/core/class-installation.php:75
+msgid "Payment Failed"
+msgstr "Plată eșuată"
+
+#. translators: %s: The [simpay_errors] shortcode
+#: includes/core/class-installation.php:77
+msgid ""
+"%sWe're sorry, but your transaction failed to process. Please try again or "
+"contact site support."
+msgstr ""
+"%sNe pare rău, dar tranzacția dvs. a eșuat. Vă rugăm să încercați din nou "
+"sau să contactați serviciul de ajutor pentru clienți."
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate.
+#: includes/core/class-shortcodes.php:144
+msgid "Please complete your %1$sStripe Setup%2$s to view the payment form."
+msgstr ""
+"Te rugăm să completezi %1$sSetarea Stripe%2$s pentru a vedea formularul de "
+"plată."
+
+#: includes/core/class-simplepay.php:69 includes/core/class-simplepay.php:76
+#: includes/pro/class-simplepaypro.php:49
+#: includes/pro/class-simplepaypro.php:56
+msgid "Cheatin&#8217; huh?"
+msgstr "Trișezi&#8217; ha?"
+
+#: includes/core/forms/class-preview.php:65
+msgid "Simple Pay Preview"
+msgstr "Plătește Simplu Previzualizare"
+
+#: includes/core/forms/class-preview.php:77
+msgid "You must be logged in to preview a form."
+msgstr "Trebuie să fiți logat pentru a previzualiza formularul."
+
+#: includes/core/functions/admin.php:24 includes/pro/functions/admin.php:26
+msgid "Auto-detect"
+msgstr "Detectare-Auto"
+
+#: includes/core/functions/admin.php:25 includes/pro/functions/admin.php:29
+msgid "Danish (da)"
+msgstr "Daneză (da)"
+
+#: includes/core/functions/admin.php:26 includes/pro/functions/admin.php:31
+msgid "Dutch (nl)"
+msgstr "Olandeză (nl)"
+
+#: includes/core/functions/admin.php:27 includes/pro/functions/admin.php:30
+msgid "English (en)"
+msgstr "Engleză (en)"
+
+#: includes/core/functions/admin.php:28 includes/pro/functions/admin.php:32
+msgid "Finnish (fi)"
+msgstr "Finlandeză (fi)"
+
+#: includes/core/functions/admin.php:29 includes/pro/functions/admin.php:33
+msgid "French (fr)"
+msgstr "Franceză (fr)"
+
+#: includes/core/functions/admin.php:30 includes/pro/functions/admin.php:34
+msgid "German (de)"
+msgstr "Germană (de)"
+
+#: includes/core/functions/admin.php:31 includes/pro/functions/admin.php:36
+msgid "Italian (it)"
+msgstr "Italian (it)"
+
+#: includes/core/functions/admin.php:32 includes/pro/functions/admin.php:37
+msgid "Japanese (ja)"
+msgstr "Japoneză (ja)"
+
+#: includes/core/functions/admin.php:33
+msgid "Norwegian (nb)"
+msgstr "Norvegiană (no)"
+
+#: includes/core/functions/admin.php:34 includes/pro/functions/admin.php:39
+msgid "Polish (pl)"
+msgstr "Poloneză (pl)"
+
+#: includes/core/functions/admin.php:35
+msgid "Portuguese (pt)"
+msgstr "Portugheză (pt)"
+
+#: includes/core/functions/admin.php:36
+msgid "Simplified Chinese (zh)"
+msgstr "Chineză Simplificată (zh)"
+
+#: includes/core/functions/admin.php:37 includes/pro/functions/admin.php:41
+msgid "Spanish (es)"
+msgstr "Spaniolă (es)"
+
+#: includes/core/functions/admin.php:38 includes/pro/functions/admin.php:42
+msgid "Swedish (sv)"
+msgstr "Suedeză (sv)"
+
+#: includes/core/functions/admin.php:75 includes/core/functions/admin.php:116
+msgid "Insert Payment Form"
+msgstr "Introduceți formularul de plată"
+
+#: includes/core/functions/admin.php:111
+msgid "Select a payment form to add to your post or page."
+msgstr ""
+"Selectați un formular de plată pentru a fi adăugat în pagina sau postarea "
+"dvs."
+
+#: includes/core/functions/admin.php:117
+msgid "Cancel"
+msgstr "Anulează"
+
+#: includes/core/functions/admin.php:342
+msgid "Click to select. Then press %s to copy."
+msgstr "Click pentru a selecta. Apoi apăsați %s pentru copiere."
+
+#: includes/core/functions/shared.php:483
+msgid "Insert Media"
+msgstr "Introduceți media"
+
+#: includes/core/functions/shared.php:484
+msgid "Use Image"
+msgstr "Folosiți imagine"
+
+#: includes/core/functions/shared.php:516
+msgid "Vietnamese Dong"
+msgstr "Dong Vietnamez"
+
+#: includes/core/functions/shared.php:804 includes/pro/class-lite-helper.php:95
+msgid "Thanks for your purchase. Here are the details of your payment:"
+msgstr "Vă mulțumim pentru plată. Aici sunt detaliile plății dvs.:"
+
+#: includes/core/functions/shared.php:805 includes/pro/class-lite-helper.php:96
+#: includes/pro/class-lite-helper.php:105
+msgid "Item:"
+msgstr "Produs:"
+
+#: includes/core/functions/shared.php:806 includes/pro/class-lite-helper.php:97
+#: includes/pro/class-lite-helper.php:106
+msgid "Purchased From:"
+msgstr "Cumpărat de la:"
+
+#: includes/core/functions/shared.php:807 includes/pro/class-lite-helper.php:98
+msgid "Payment Date:"
+msgstr "Data plății:"
+
+#: includes/core/functions/shared.php:808
+msgid "Payment Amount: "
+msgstr "Suma de plată: "
+
+#: includes/core/payments/payment-confirmation.php:177
+msgid "Unable to locate payment record."
+msgstr "Imposibil de localizat înregistrarea de plată."
+
+#: includes/core/rest-api/v2/class-checkout-session-controller.php:103
+#: includes/core/rest-api/v2/class-customer-controller.php:98
+#: includes/core/rest-api/v2/class-paymentintent-controller.php:130
+#: includes/pro/rest-api/v2/class-subscription-controller.php:118
+msgid "Unable to locate payment form."
+msgstr "Imposibil de localizat formularul de plată."
+
+#: includes/core/rest-api/v2/class-paymentintent-controller.php:118
+msgid "A payment method is required."
+msgstr "Este necesară o metodă de plată."
+
+#: includes/core/rest-api/v2/class-paymentintent-controller.php:125
+#: includes/core/rest-api/v2/class-paymentintent-controller.php:242
+#: includes/pro/rest-api/v2/class-subscription-controller.php:125
+msgid "A customer must be provided."
+msgstr "Trebuie furnizat un client."
+
+#: includes/core/rest-api/v2/class-paymentintent-controller.php:235
+msgid "Unable to locate PaymentIntent"
+msgstr "Imposibil de localizat PaymentIntent"
+
+#: includes/core/rest-api/v2/class-paymentintent-controller.php:299
+msgid "Invalid PaymentIntent status"
+msgstr "Stare de PaymentIntent invalidă"
+
+#: includes/core/stripe-connect/admin.php:62
+msgid ""
+"There was an error getting your Stripe credentials. Please <a href=\"%s"
+"\">try again</a>. If you continue to have this problem, please contact "
+"support."
+msgstr ""
+"Eroare la obtinerea acreditărilor Stripe. Vă rugăm să <a href=\"%s"
+"\">încercați din nou</a>. Dacă aveți în continuare această problemă, vă "
+"rugăm să contactați asistența."
+
+#: includes/core/stripe-connect/admin.php:152
+msgid "Unable to retrieve account information."
+msgstr "Imposibil de regăsit informațiile contului."
+
+#: includes/core/stripe-connect/admin.php:157
+msgid "You are currently connected to an unsaved Stripe account."
+msgstr "În prezent, sunteți conectat la un cont Stripe nesalvat."
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate
+#: includes/core/stripe-connect/admin.php:160
+msgid "Please %1$ssave your account in Stripe%2$s to see more information."
+msgstr ""
+"Vă rugăm să%1$ssalvați contul în Stripe%2$s pentru a vedea mai multe "
+"informații."
+
+#: includes/core/stripe-connect/admin.php:164
+msgid "You will not be able to reconnect to this account unless it is saved."
+msgstr ""
+"Nu veți putea să vă reconectați la acest cont decât dacă acesta este salvat."
+
+#: includes/core/stripe-connect/admin.php:212
+msgid ""
+"Unable to validate your Stripe Account with the API keys provided. If you "
+"have manually modified these values after connecting your account, please "
+"reconnect below or update your API keys."
+msgstr ""
+"Imposibil de validat contul Stripe cu cheile API furnizate. Dacă ați "
+"modificat manual aceste valori după conectarea contului, vă rugăm să "
+"reconectați mai jos sau să actualizați cheile API."
+
+#: includes/core/stripe-connect/admin.php:221
+msgid ""
+"It is highly recommended to Connect with Stripe for easier setup and "
+"improved security."
+msgstr ""
+"Este foarte recomandat să vă conectați cu Stripe pentru instalare mai ușoară "
+"și securitate îmbunătățită."
+
+#. translators: %1$s Stripe payment mode.
+#: includes/core/stripe-connect/admin.php:233
+msgid "Your manually managed %1$s mode API keys are valid."
+msgstr "Cheile API gestionate %1$s în mod manual sunt valide."
+
+#. translators: %1$s Stripe payment mode.
+#: includes/core/stripe-connect/admin.php:247
+msgid "Your manually managed %1$s mode API keys are invalid."
+msgstr "Cheile API gestionate %1$s în mod manual sunt invalide."
+
+#: includes/pro/admin/apple-pay.php:100
+msgid "Unable to create domain association folder in domain root."
+msgstr ""
+"Nu s-a putut crea directorul asociat domeniului în rădăcina domeniului."
+
+#: includes/pro/admin/apple-pay.php:107
+msgid "Unable to copy domain association file to domain .well-known directory."
+msgstr ""
+"Nu s-a putut copia fișierul domeniului asociat în directorul .well-known al "
+"domeniului."
+
+#: includes/pro/admin/apple-pay.php:131
+msgid "Unable to automatically add domain to Apple Pay settings in Stripe."
+msgstr "Nu s-au putut adăuga automat domeniul la setarea Apple Pay din Stripe."
+
+#: includes/pro/admin/apple-pay.php:184
+msgid "Apple Pay domain verification error"
+msgstr "Eroare de verificare a domeniului Apple Pay"
+
+#: includes/pro/admin/apple-pay.php:188
+msgid "Manually verify your domain"
+msgstr "Verifică domeniul tău manual"
+
+#: includes/pro/admin/class-ajax.php:109 includes/pro/admin/class-ajax.php:151
+#: includes/pro/admin/fields/class-license.php:113
+msgid "An unknown error has occured. Please try again."
+msgstr "A apărut o eroare. Vă rugăm să încercați din nou."
+
+#: includes/pro/admin/class-menus.php:47
+msgid "Simple Pay Pro"
+msgstr "Plătește Simplu Pro"
+
+#: includes/pro/admin/class-pages.php:82
+msgid "Subscription without Trial"
+msgstr "Abonament fără încercare de probă"
+
+#: includes/pro/admin/class-pages.php:91
+msgid "Subscription with Free Trial"
+msgstr "Abonament cu încercare de probă"
+
+#: includes/pro/admin/class-pages.php:120
+msgid ""
+"Enter what your customers will see after a successful subscription plan "
+"payment."
+msgstr ""
+"Introduceți ce vor vedea clienții după o plată reușită a abonamentului."
+
+#: includes/pro/admin/class-pages.php:122
+msgid ""
+"The recurring amount to be charged each period of the subscription plan."
+msgstr ""
+"Suma recurentă ce va fi încasată pentru fiecare perioadă a planului de "
+"abonament."
+
+#: includes/pro/admin/class-pages.php:123
+msgid "The total number of max charges set for an installment plan."
+msgstr "Numărul total de încasări maxime setat pentru un plan în rate."
+
+#: includes/pro/admin/class-pages.php:148
+msgid ""
+"Enter what your customers will see after a successful subscription trial "
+"sign up."
+msgstr ""
+"Introduceți ce vor vedea clienții după o plată reușită a abonamentului de "
+"probă."
+
+#: includes/pro/admin/class-pages.php:150
+msgid "The day the plan's free trial ends."
+msgstr "Ziua în care planul de probă gratuit va înceta."
+
+#: includes/pro/admin/class-pages.php:204
+msgid "Beta Versions"
+msgstr "Versiuni beta"
+
+#: includes/pro/admin/class-pages.php:210
+msgid ""
+"Check this box to opt into update notifications for beta releases. This will "
+"allow you to use pre-release versions of WP Simple Pay."
+msgstr ""
+"Bifaţi această casetă pentru a opta în notificările de actualizare pentru "
+"versiuni beta. Acest lucru vă va permite să utilizaţi versiunile pre-release "
+"de WP simplu Pay."
+
+#: includes/pro/admin/fields/class-license.php:64
+#: includes/pro/admin/license-management.php:101
+msgid ""
+"A valid license key is required for access to automatic updates and support."
+msgstr ""
+"O cheie corectă de licență este necesară pentru a accesa actualizările "
+"automate si suportul tehnic."
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate.
+#: includes/pro/admin/fields/class-license.php:72
+msgid ""
+"Retrieve your license key from %1$syour WP Simple Pay account%2$s or "
+"purchase receipt email."
+msgstr ""
+"Regăsiți cheia licenței dvs. din %1$s contul dvs. WP Pay Simple</a>%2$s sau "
+"din email-ul cu chitanța plății."
+
+#: includes/pro/admin/fields/class-license.php:96
+#: includes/pro/admin/fields/class-license.php:100
+msgid "Verifying"
+msgstr "Se verifică"
+
+#: includes/pro/admin/fields/class-license.php:97
+msgid "Activate"
+msgstr "Activați"
+
+#: includes/pro/admin/fields/class-license.php:104
+msgid "Deactivate"
+msgstr "Dezactivați"
+
+#: includes/pro/admin/fields/class-license.php:121
+msgid "Want to connect Stripe subscriptions to your payment forms?"
+msgstr "Doriți să conectați abonamentele Stripe la formularele dvs. de plată?"
+
+#: includes/pro/admin/fields/class-license.php:131
+msgid "Upgrade Your License Now"
+msgstr "Actualizați licența dvs. acum"
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate. %3$s Opening anchor tag, do not translate.
+#: includes/pro/admin/license-management.php:109
+msgid ""
+"Retrieve your license key from %1$syour WP Simple Pay account%3$s or "
+"purchase receipt email then %2$sactivate your website%3$s."
+msgstr ""
+"Regăsiți cheia licenței dvs. din %1$s contul dvs. WP Pay Simple</a> sau din "
+"email-ul cu chitanța plății."
+
+#: includes/pro/admin/license-management.php:316
+msgid "Please enter a valid license key."
+msgstr "Te rugăm să introduci o cheie de licență validă."
+
+#. translators: %1$s The date the license is valid until.
+#: includes/pro/admin/license-management.php:318
+msgid "This license key is valid until %1$s."
+msgstr "Această cheie de licență este validă până la %1$s."
+
+#: includes/pro/admin/license-management.php:320
+msgid "This license key is valid."
+msgstr "Această cheie a licenței este validă."
+
+#: includes/pro/admin/license-management.php:321
+msgid "This license key is expired"
+msgstr "Această cheie a licenței este expirată"
+
+#: includes/pro/admin/license-management.php:322
+#: includes/pro/admin/license-management.php:323
+msgid "This license key is disabled."
+msgstr "Această cheie a licenței este dezactivată."
+
+#: includes/pro/admin/license-management.php:324
+msgid "This license key is not valid."
+msgstr "Această cheie a licenței nu este validă."
+
+#: includes/pro/admin/license-management.php:325
+#: includes/pro/admin/license-management.php:326
+#: includes/pro/admin/license-management.php:328
+msgid "This license key is saved but has not been activated."
+msgstr "Această cheie a licenței este salvată dar nu a fost activată."
+
+#: includes/pro/admin/license-management.php:327
+msgid "This license key could not be deactivated."
+msgstr "Această cheie a licenței nu poate fi dezactivată."
+
+#: includes/pro/admin/license-management.php:329
+#: includes/pro/admin/license-management.php:330
+msgid "This license key appears to be for another product."
+msgstr "Această cheie a licenței se pare că aparține altui produs."
+
+#: includes/pro/admin/license-management.php:331
+msgid "This license key has reached its activation limit."
+msgstr "Această cheie a licenței a atins limita de activare."
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:103
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:53
+#: includes/pro/class-lite-helper.php:602
+msgid "Email"
+msgstr "Email"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:110
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:117
+msgid "Address"
+msgstr "Adresă"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:124
+msgid "Credit Card"
+msgstr "Card de credit"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:131
+msgid "Coupon"
+msgstr "Cupon"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:138
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:260
+msgid "Custom Amount"
+msgstr "Sumă personalizată"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:145
+msgid "Subscription Plan Selector"
+msgstr "Selecție plan abonament"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:152
+msgid "Recurring Amount Toggle"
+msgstr "Suma de plată recurentă"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:159
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:13
+msgid "Total Amount Label"
+msgstr "Etichetă sumă totală"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:173
+msgid "Apple Pay/Google Pay Button"
+msgstr "Buton Apple Pay/Google Pay"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:180
+msgid "Checkout Button"
+msgstr "Textul butonului de plată"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:188
+msgid "Text"
+msgstr "Text"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:195
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:144
+msgid "Dropdown"
+msgstr "Lista verticală"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:202
+msgid "Radio Select"
+msgstr "Buton radio de selecție"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:216
+msgid "Number"
+msgstr "Număr"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:223
+msgid "Checkbox"
+msgstr "Caseta de bifat"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:230
+msgid "Hidden"
+msgstr "Ascuns"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:264
+msgid "Add a field, label or button"
+msgstr "Adăugă un câmp, etichetă sau buton"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:268
+msgid "Choose a field..."
+msgstr "Alege un câmp..."
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:300
+msgid "Add"
+msgstr "Adaugă"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:410
+msgid "Click to toggle"
+msgstr "Click pentru a bifa"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:437
+msgid "Remove Field"
+msgstr "Înlătură câmp"
+
+#: includes/pro/admin/metaboxes/class-settings.php:116
+msgid "Minimum Custom Amount"
+msgstr "Suma personalizată minimă"
+
+#: includes/pro/admin/metaboxes/class-settings.php:157
+msgid "Default Custom Amount"
+msgstr "Suma personalizată implicită"
+
+#: includes/pro/admin/metaboxes/class-settings.php:195
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:376
+msgid "The custom amount field will load with this amount set by default."
+msgstr ""
+"Câmpul sumă personalizată se va încărca cu această sumă setată implicit."
+
+#: includes/pro/admin/metaboxes/class-settings.php:212
+msgid "Amount Type"
+msgstr "Opțiuni sumă"
+
+#: includes/pro/admin/metaboxes/class-settings.php:236
+msgid "One-Time Set Amount"
+msgstr "Sumă unică"
+
+#: includes/pro/admin/metaboxes/class-settings.php:237
+msgid "One-Time Custom Amount"
+msgstr "Sumă unică personalizată"
+
+#: includes/pro/admin/metaboxes/class-settings.php:252
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:49
+msgid ""
+"<a href=\"%1$s\" class=\"%2$s\" data-show-tab=\"%3$s\">See Subscription "
+"Options</a> to set a recurring amount."
+msgstr ""
+"<a href=\"%1$s\" class=\"%2$s\" data-show-tab=\"%3$s\">Vedeți opțiunile de "
+"abonament</a> pentru a seta o sumă recurentă."
+
+#: includes/pro/admin/metaboxes/class-settings.php:270
+msgid "Subscriptions are currently enabled."
+msgstr "Abonamentele sunt activate în mod curent."
+
+#: includes/pro/admin/metaboxes/class-settings.php:272
+msgid "A Dropdown Select custom field using amount is enabled."
+msgstr ""
+"O listă de selecție verticală pentru câmpul sumei personalizate este "
+"activată."
+
+#: includes/pro/admin/metaboxes/class-settings.php:274
+msgid "A Radio Button Select custom field using amount is enabled."
+msgstr ""
+"Un buton radio de selecție a câmpului sumei personalizate este activat."
+
+#: includes/pro/admin/metaboxes/class-settings.php:282
+msgid ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Upgrade your "
+"license</a> to connect Stripe subscriptions to your payment forms."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Actualizați "
+"licența dvs.</a> pentru a conecta abonamentele Stripe cu formularele dvs. de "
+"plată."
+
+#: includes/pro/admin/metaboxes/class-settings.php:338
+#: includes/pro/admin/metaboxes/views/tabs/tab-custom-form-fields.php:11
+msgid "Custom Form Fields"
+msgstr "Câmpuri machetă personalizate"
+
+#: includes/pro/admin/metaboxes/class-settings.php:342
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:10
+msgid "Form Display Options"
+msgstr "Opțiuni de afișare formular"
+
+#: includes/pro/admin/metaboxes/stripe-checkout.php:26
+msgid "Enable Form Styles"
+msgstr "Activează stiluri pentru formulare"
+
+#: includes/pro/admin/metaboxes/stripe-checkout.php:36
+msgid ""
+"Apply plugin styling to form fields that appear on-page. Otherwise the "
+"styles will inherit from the current theme."
+msgstr ""
+"Aplică stilul pluginului la câmpurile formularului care apare în pagină. "
+"Altfel, stilurile vor fi moștenite din tema curentă."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:13
+msgid "Billing Address Heading"
+msgstr "Titlu adresă facturare"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:32
+msgid "Heading displayed above the entire billing address."
+msgstr "Antet afișat deasupra întregii adrese de facturare."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:42
+msgid "Street Label"
+msgstr "Eticheta stradă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:71
+msgid "Street Placeholder"
+msgstr "Substituent stradă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:82
+msgid "Street"
+msgstr "Stradă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:99
+msgid "City Label"
+msgstr "Etichetă oraș"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:127
+msgid "City Placeholder"
+msgstr "Substituent oraș"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:138
+msgid "City"
+msgstr "Oraș"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:154
+msgid "State/Province/Region Label"
+msgstr "Etichetă de stat/provincie/regiune"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:182
+msgid "State/Province Placeholder"
+msgstr "Substituent de stat/provincie"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:193
+msgid "State"
+msgstr "Stare"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:209
+msgid "Zip/Postal Code Label"
+msgstr "Etichetă cod poștal"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:237
+msgid "Zip/Postal Code Placeholder"
+msgstr "Substituent cod zip/postal"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:248
+msgid "Zip/Postal Code"
+msgstr "Verifică Zip/Cod poștal"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:264
+msgid "Country Label"
+msgstr "Etichetă țară"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:292
+msgid "Default Country"
+msgstr "Țară implicită"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:321
+msgid "Address Required"
+msgstr "Adresă obligatorie"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:345
+msgid "Collect Shipping Address"
+msgstr "Colectează adresa de expediere"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:374
+msgid "Shipping Address Heading"
+msgstr "Titlu adresă livrare"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:393
+msgid "Heading displayed above the entire shipping address."
+msgstr "Antet afișat deasupra întregii adrese de expediere."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-address-html.php:405
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:65
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:120
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:97
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:96
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-custom-amount-html.php:56
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:95
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:125
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:256
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:72
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-hidden-html.php:81
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:233
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-button-html.php:96
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:66
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:71
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:233
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:120
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-telephone-html.php:105
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:210
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:160
+msgid "Field ID"
+msgstr "ID câmp"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-custom-amount-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:13
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-telephone-html.php:24
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:13
+msgid "Form Field Label"
+msgstr "Etichetă câmp formular"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-card-html.php:42
+msgid "Hide Postal Code"
+msgstr "Ascundere cod poștal"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:32
+msgid ""
+"Label displayed next to this checkbox on the payment form. May contain HTML."
+msgstr ""
+"Eticheta afișată lângă aceasta casetă de bifare în formularul de plată. "
+"Poate conține HTML."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:70
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:70
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-telephone-html.php:81
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:70
+msgid "Required Field"
+msgstr "Câmp obligatoriu"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:65
+msgid "Default to Checked"
+msgstr "Implicit bifat"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkbox-html.php:88
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:93
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:224
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-hidden-html.php:50
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:201
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:201
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:178
+msgid "Stripe Metadata Label"
+msgstr "Eticheta metadata de la Stripe"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:13
+msgid "Checkout Button Text"
+msgstr "Textul butonului de plată"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:32
+#: includes/pro/forms/class-pro-form.php:903
+#: includes/pro/forms/fields/class-checkout-button.php:74
+msgid "Pay {{amount}}"
+msgstr "Plătește {{amount}}"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-checkout-button-html.php:42
+msgid "Checkout Button Processing Text"
+msgstr "Text buton procesare plată"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-email-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:42
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-telephone-html.php:53
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:42
+msgid "Placeholder"
+msgstr "Substituent"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:53
+msgid "Coupon code"
+msgstr "Cod cupon"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-coupon-html.php:70
+msgid "Button Display Style"
+msgstr "Stil buton afișare"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-custom-amount-html.php:47
+msgid ""
+"This is just a placeholder where the Custom Amount field, if enabled, will "
+"be displayed on the form."
+msgstr ""
+"Acesta este doar un marcaj pentru locul unde câmpul sumei personalizate va "
+"fi afișat în formular, dacă este activat."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-customer-name-html.php:53
+#: includes/pro/class-lite-helper.php:586
+msgid "Full name"
+msgstr "Nume complet"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-date-html.php:65
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:96
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-hidden-html.php:22
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:93
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:73
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:93
+msgid "Default Value"
+msgstr "Valoare implicită"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:65
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:42
+msgid "Options"
+msgstr "Opțiuni"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:89
+msgid "A comma separated list of options to fill the dropdown with."
+msgstr ""
+"O lista de opțiuni separate prin virgulă pentru a umple lista verticală."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:120
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:97
+msgid ""
+"Option to be selected by default. Will be first in list if left blank or no "
+"match."
+msgstr ""
+"Opțiunea care va fi selectată implicit. Aceasta va fi prima din lista, dacă "
+"este lăsată goală sau daca nu există corespondent."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:127
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:104
+msgid "Quantity or Amount Field"
+msgstr "Câmp cantitate sau sumă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:148
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:125
+msgid "Not Used"
+msgstr "Nu se utilizează"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:149
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:126
+msgid "Quantity (Multiplier)"
+msgstr "Cantitate (Multiplicator)"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:150
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:127
+msgid "Amount (User Selects)"
+msgstr "Sumă (Utilizatorul selectează)"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:161
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:138
+msgid "Quantities"
+msgstr "Cantități"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:185
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:162
+msgid ""
+"A comma separated list of quantity values to multiply the amount by (i.e. "
+"\"1,5,10\"). Needs to match the number of options and their order."
+msgstr ""
+"O lista de valori cantitative separate prin virgulă pentru a multiplica "
+"suma. (de exemplu \"1,5,10\"). Trebuie să corespundă cu numărul de opțiuni "
+"și ordinea acestora."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:192
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:169
+msgid "Amounts"
+msgstr "Sume"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-dropdown-html.php:217
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:194
+msgid ""
+"A comma separated list of amounts without the \"%s\" symbol (i.e. "
+"\"2.00,4.50,9.00\"). Needs to match the number of options and their order."
+msgstr ""
+"O lista de valori cantitative separate prin virgulă fără simbolul \"%s\" (de "
+"exemplu \"2.00,,4.50,9.00\"). Trebuie să corespundă cu numărul de opțiuni și "
+"ordinea acestora."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:120
+msgid "Minimum"
+msgstr "Minim"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:147
+msgid "Maximum"
+msgstr "Maxim"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:174
+msgid "Quantity Field"
+msgstr "Câmp cantitate"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-number-html.php:194
+msgid "Enable to multiply the amount by this value."
+msgstr "Activează pentru a multiplica această sumă cu această valoare."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:27
+msgid ""
+"Using this field, site visitors are shown either an Apple Pay, Google Pay, "
+"or Microsoft Pay button if their browser and device combination supports it. "
+"If none are available, the button is not displayed."
+msgstr ""
+"Prin folosirea acestui câmp, vizitatorii site-ului vor vedea fie un buton "
+"Apple Pay, Google Pay sau Microsoft Pay, dacă combinația browser-ul și "
+"device-ului suportă aceasta. Dacă nici una nu este disponibilă, butonul nu "
+"va fi afișat."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:29
+msgid ""
+"To use Apple Pay, you must be connected to your Stripe account in Live mode "
+"or have your Live API keys enabled."
+msgstr ""
+"Pentru a folosi Apple Pay, trebuie să fii conectat la contul tău Stripe în "
+"modul live sau să ai cheia API live activată."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:32
+msgid "Help docs for the Apple Pay/Google Pay Button"
+msgstr "Documentație pentru butonul Apple Pay/Google Pay"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:39
+msgid "Button Type"
+msgstr "Tip buton"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-payment-request-button-html.php:53
+msgid "Buy"
+msgstr "Cumpără"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-plan-select-html.php:43
+msgid ""
+"This is just a placeholder where the Subscription multi-plan select field, "
+"if enabled, will be displayed on the form. If you enabled a custom amount "
+"field within the plan selection, it will also be displayed here."
+msgstr ""
+"Acesta este doar un marcaj pentru locul unde câmpul de selecție al "
+"abonamentului multi-plan va fi afișat în formular, dacă este activat. Dacă "
+"activați câmpul sumei personalizate în matrița selectării planului, acesta "
+"va fi afișat tot aici."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-radio-html.php:66
+msgid "A comma separated list of options to fill the radio button list with."
+msgstr ""
+"O lista de opțiuni separate prin virgulă pentru a umple lista de butoane "
+"radio."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:31
+#: includes/pro/forms/fields/class-recurring-amount-toggle.php:38
+msgid "Make this a recurring amount"
+msgstr "Fă aceasta o sumă recurentă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:33
+msgid "The label that will appear on the checkbox."
+msgstr "Eticheta care va apare la caseta de bifare."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:43
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:383
+msgid "Interval/Frequency"
+msgstr "Interval/Frecvență"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:74
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:414
+msgid "Month(s)"
+msgstr "Lună(i)"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:75
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:415
+msgid "Week(s)"
+msgstr "Săptămână(i)"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:76
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:416
+msgid "Day(s)"
+msgstr "Zi(le)"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:77
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:417
+msgid "Year(s)"
+msgstr "An(i)"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:88
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:183
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:501
+msgid "Max Charges"
+msgstr "Număr maxim de tranzacții"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-recurring-amount-toggle-html.php:108
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:526
+msgid ""
+"The number of times this subscription should be charged. It will "
+"automatically cancel after it reaches the max number. Leave blank for "
+"indefinite."
+msgstr ""
+"De câte ori acest abonament va fi încasat. Se va anula automat după ce "
+"atinge numărul maxim. Lăsați gol pentru un număr indefinit."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:120
+msgid "Multi-line"
+msgstr "Text pe mai multe linii"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:140
+msgid "Set to a paragraph text field. Limited to 500 characters by Stripe."
+msgstr ""
+"Setează ca un câmp text paragraf. Limitat de către Stripe la 500 de "
+"caractere."
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-text-html.php:150
+msgid "Rows"
+msgstr "Linii"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:32
+#: includes/pro/forms/fields/class-total-amount.php:72
+msgid "Total Amount:"
+msgstr "Sumă totală:"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:42
+msgid "Show Recurring Total"
+msgstr "Arată suma recurentă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:71
+msgid "Recurring Total Label"
+msgstr "Etichetă total recurent"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:90
+#: includes/pro/forms/fields/class-total-amount.php:95
+msgid "Recurring Total:"
+msgstr "Total recurent:"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:100
+msgid "Show Tax Amount"
+msgstr "Arată valoarea taxei"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:129
+msgid "Tax Amount Label"
+msgstr "Etichetă valoare taxă"
+
+#: includes/pro/admin/metaboxes/views/custom-fields/custom-fields-total-amount-html.php:148
+msgid "Total Tax:"
+msgstr "Total taxă:"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-custom-form-fields.php:24
+msgid "Help docs for Custom Form Fields"
+msgstr "Documentație pentru câmpurile de formular personalizate"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:26
+msgid "Form Display Type"
+msgstr "Tip de Afișare formular"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:47
+msgid "Embedded"
+msgstr "Încorporat"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:48
+msgid "Overlay"
+msgstr "Suprapunere"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:49
+msgid "Stripe Checkout"
+msgstr "Plată Stripe"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-form-display-options.php:73
+msgid "Help docs for Form Display Options"
+msgstr "Documentație pentru opțiunile de afișare a formularului"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-multi-subs.php:18
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:104
+msgid "Select"
+msgstr "Selectează"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-multi-subs.php:137
+msgid "Remove plan"
+msgstr "Înlătură plan"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:16
+msgid "Subscription Plans"
+msgstr "Planuri abonament"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:35
+msgid "Set Single Plan"
+msgstr "Setează un singur plan"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:36
+msgid "User Selects Plan"
+msgstr "Utilizatorul selectează planul"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:56
+msgid ""
+"While in %1$s you may only select plans from your %2$sStripe %1$s Plans%4$s. "
+"To avoid needing to redefine available subscriptions for this form when "
+"switching between payment modes, set the same pricing Plan ID for both Live "
+"and Test mode. For more information please see the %3$sdocumentation%4$s."
+msgstr ""
+"Aflându-te în %1$s poți selecta planuri doar dintre %2$sPlanurile %1$s Stripe"
+"%4$s. Pentru a evita redefinirea abonamentelor disponibile pentru acest "
+"formular când schimbi modurile de plată, setează același Plan ID pentru "
+"ambele moduri Live și Test. Pentru mai multe informații te rugăm să vezi "
+"%3$sdocumentația%4$s."
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:78
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:165
+msgid "Select Plan"
+msgstr "Selectează Plan"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:112
+msgid ""
+"You need to enter your Stripe API Keys for your plan list to be pulled "
+"automatically. <a href=\"%s\">Enter your keys here</a>"
+msgstr ""
+"Trebuie să introduceți cheile API Stripe pentru lista planurilor dvs. pentru "
+"a fi extrase automat. <a href=\"%s\">Introduceți cheile dvs. aici</a>"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:128
+msgid "Display Style"
+msgstr "Afișează Stil"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:143
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:169
+msgid "Custom Label"
+msgstr "Etichetă personalizată"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:176
+msgid "Setup Fee"
+msgstr "Preț setare"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:234
+msgid "Add Plan"
+msgstr "Adaugă Plan"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:240
+msgid ""
+"You need to enter your Stripe API Keys before you can start adding plans. <a "
+"href=\"%s\">Enter your keys here</a>"
+msgstr ""
+"Trebuie să introduceți cheile dvs. API Stripe înainte de a începe adăugarea "
+"planurilor. <a href=\"%s\">Introduceți cheile dvs. aici</a>"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:295
+msgid "Minimum Amount"
+msgstr "Sumă minimă"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:336
+msgid "Default Amount"
+msgstr "Sumă implicită"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:428
+msgid "Custom Amount Plan Label"
+msgstr "Etichetă pentru planul sumei personalizate"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:443
+#: includes/pro/forms/class-pro-form.php:719
+msgid "Other amount"
+msgstr "Altă sumă"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:457
+#: includes/pro/payments/stripe-checkout/subscription.php:297
+#: includes/pro/payments/subscription.php:414
+msgid "Initial Setup Fee"
+msgstr "Sumă setare inițială"
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:494
+msgid "An optional amount to add to the first payment only."
+msgstr "O sumă opțională pentru a fi adăugată doar la prima plată."
+
+#: includes/pro/admin/metaboxes/views/tabs/tab-subscription-options.php:536
+msgid "Help docs for Subscription Options"
+msgstr "Documentație pentru opțiunile de abonare"
+
+#: includes/pro/admin/pages/class-license.php:22
+msgid "License"
+msgstr "Licență"
+
+#: includes/pro/admin/pages/class-license.php:23
+msgid "Help docs for License Settings"
+msgstr "Documentație pentru setările licenței"
+
+#: includes/pro/admin/pages/class-license.php:71
+msgid "License Key"
+msgstr "Cheia licenței"
+
+#. translators: %1$s Stripe account mode. %2$s Link to Stripe dashboard.
+#: includes/pro/admin/settings.php:59
+msgid ""
+"Please also ensure you have the correct subscription, coupon, and webhook "
+"settings in your %1$s %2$s."
+msgstr ""
+"Te rugăm să te asiguri, de asemenea, că ai setările abonamentului corect, "
+"ale cuponului și webhook în %1$s %2$s."
+
+#: includes/pro/admin/settings.php:61
+msgid "Stripe account"
+msgstr "Cont Stripe"
+
+#: includes/pro/admin/settings.php:77
+msgid ""
+"Stripe can send webhook events that notify your application any time an "
+"event happens on your account."
+msgstr ""
+"Stripe poate trimite evenimentele webhook pentru a notifica aplicația ta de "
+"fiecare dată când un eveniment se întâmplă în contul tău."
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate.
+#: includes/pro/admin/settings.php:84
+msgid ""
+"To allow your site to receive webhook notifications, add an endpoint in your "
+"%1$sStripe dashboard%2$s with the following URL:"
+msgstr ""
+"Pentru a permite site-ului tă să primească notificări webhook, adaugă un "
+"punct final în %1$sPanoul Stripe%2$s cu următorul URL:"
+
+#: includes/pro/admin/settings.php:98
+msgid "For more information view our %1$shelp docs for webhooks%2$s."
+msgstr ""
+"Pentru mai multe informații, vizualizați %1$sdocumentele noastre pentru "
+"cârlige web%2$s."
+
+#: includes/pro/admin/settings.php:104
+msgid ""
+"Your webhook configuration for the entered API keys is missing or incorrect."
+msgstr "Configurarea ta webhook pentru cheia API lipsește sau este incorectă."
+
+#: includes/pro/admin/settings.php:108
+msgid "Create Webhooks Automatically"
+msgstr "Crează webhooks automat"
+
+#. translators: %1$s Anchor opening tag, do not translate. %2$s Closing anchor
+#. tag, do not translate.
+#: includes/pro/admin/settings.php:113
+msgid "or %1$smanually in Stripe%2$s"
+msgstr "sau %1$smanual in Stripe%2$s"
+
+#: includes/pro/admin/settings.php:137
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: includes/pro/admin/settings.php:156
+msgid "Card Field Locale"
+msgstr "Setări locale de câmp"
+
+#: includes/pro/admin/settings.php:162
+msgid ""
+"Specify \"Auto-detect\" to display the Credit Card field placeholders and "
+"validation messages in the user's preferred language, if available."
+msgstr ""
+"Specificați \"detectare automată\" pentru a afișa substituenții de câmp card "
+"de credit și mesajele de validare în limba preferată a utilizatorului, dacă "
+"este disponibilă."
+
+#: includes/pro/admin/settings.php:162
+msgid "This setting applies to the Embedded and Overlay form displays only."
+msgstr ""
+"Această setare se aplică numai afișării formularului încorporat și Overlay."
+
+#: includes/pro/admin/settings.php:184
+msgid "This setting applies to the Stripe Checkout form displays only."
+msgstr ""
+"Această setare se aplică doar la formularul de afișare Stripe Checkout."
+
+#: includes/pro/admin/settings.php:205 includes/pro/functions/recaptcha.php:133
+msgid "Setup"
+msgstr "Setare"
+
+#. translators: %1$s opening anchor tag and URL, do not translate. %2$s closing
+#. anchor tag, do not translate
+#: includes/pro/admin/settings.php:219
+msgid ""
+"Stripe can optionally sign the webhook events it sends to your endpoints for "
+"added security. To do so, retrieve your endpoint&#39;s secret from your "
+"%1$sDashboard&#39;s webhooks settings%2$s. Select an endpoint for which you "
+"want to obtain the secret, then select the <em>Click to reveal</em> button."
+msgstr ""
+"Stripe poate în mod opțional să semneze evenimentele webhook pe care le "
+"trimite către punctul final pentru mai multă securitate. Pentru a face "
+"aceasta, Stripe preia cheia punctului final&#39;s din %1$ssetările webhook "
+"ale Panoului&#39;s %2$s. Selectează un punct final pentru care dorești să "
+"obții cheia, apoi selectează butonul <em>Click pentru afișare</em>."
+
+#: includes/pro/admin/settings.php:232
+msgid "Test Endpoint Secret"
+msgstr "Cheie secretă pentru endpoint"
+
+#: includes/pro/admin/settings.php:242
+msgid "Live Endpoint Secret"
+msgstr "Cheie secretă pentru endpoint live"
+
+#: includes/pro/class-edd-sl-plugin-updater.php:231
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Există o nouă versiune disponibila a %1$s.  %2$sVedeți detaliile %3$s "
+"versiunii%4$s."
+
+#: includes/pro/class-edd-sl-plugin-updater.php:239
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Există o nouă versiune disponibila a %1$s.  %2$sVedeți detaliile %3$s "
+"versiunii%4$s sau %5$sactualizați acum%6$s."
+
+#: includes/pro/class-edd-sl-plugin-updater.php:472
+msgid "You do not have permission to install plugin updates"
+msgstr "Nu aveți permisiunea să instalați actualizări ale modulului"
+
+#: includes/pro/class-edd-sl-plugin-updater.php:472
+msgid "Error"
+msgstr "Eroare"
+
+#: includes/pro/class-lite-helper.php:99
+msgid "Initial Payment Amount:"
+msgstr "Suma de plată inițială:"
+
+#: includes/pro/class-lite-helper.php:100
+#: includes/pro/class-lite-helper.php:108
+msgid "Recurring Payment Amount: "
+msgstr "Suma de plată recurentă: "
+
+#: includes/pro/class-lite-helper.php:104
+msgid ""
+"Thanks for subscribing. Your card will not be charged until your free trial "
+"ends."
+msgstr ""
+"Mulțumim pentru înscriere. Cardul dvs. nu va fi tranzacționat până când "
+"perioada de probă gratuită nu se termină."
+
+#: includes/pro/class-lite-helper.php:107
+msgid "Trial End Date:"
+msgstr "Data de sfârșit a perioadei de probă:"
+
+#: includes/pro/class-lite-helper.php:117
+msgid ""
+"The calculated tax amount based on the total and the tax percent setting."
+msgstr ""
+"Suma calculată pentru taxă este bazată pe total și pe setarea procentajului "
+"taxei."
+
+#: includes/pro/class-lite-helper.php:151
+msgid "Date Format"
+msgstr "Format dată"
+
+#: includes/pro/class-lite-helper.php:159
+msgid ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Date format "
+"options</a> (uses jQuery UI Datepicker)"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Opțiuni format "
+"dată</a> (folosește interfața jQuery pentru selectorul de dată)"
+
+#: includes/pro/class-lite-helper.php:182
+msgid "Tax Rate Percentage"
+msgstr "Procentaj Taxă"
+
+#: includes/pro/class-lite-helper.php:197
+msgid ""
+"Enter a tax rate as a percentage to add to the charged amount (i.e. for 7.5% "
+"tax enter 7.5)."
+msgstr ""
+"Introduceți o valoare a taxei sub forma unui procentaj pentru a fi adăugată "
+"la suma încasată (de exemplu pentru o taxă de 7.5% introduceți 7.5)."
+
+#: includes/pro/class-lite-helper.php:221
+msgid "You may only add one of these fields per form."
+msgstr "Puteți adăuga doar unul dintre aceste câmpuri în formular."
+
+#: includes/pro/class-lite-helper.php:222
+msgid "The maximum number of fields is 20."
+msgstr "Numărul maxim de câmpuri este 20."
+
+#: includes/pro/class-lite-helper.php:242
+msgid "Help docs for Payment Options"
+msgstr "Documentație pentru opțiunile de plată"
+
+#: includes/pro/class-lite-helper.php:249
+msgid "Help docs for Stripe Checkout Display"
+msgstr "Ajutor Docs pentru afișare Plată Stripe"
+
+#: includes/pro/forms/class-ajax.php:42
+msgid "Coupon security check failed."
+msgstr "Verificarea de securitate a cuponului nu a reușit."
+
+#: includes/pro/forms/class-ajax.php:62
+msgid "Coupon is invalid."
+msgstr "Cuponul este incorect."
+
+#: includes/pro/forms/class-ajax.php:106
+msgid "Coupon entered puts the total below the required minimum amount."
+msgstr ""
+"Cuponul introdus face ca totalul de mai jos să fie sub valoarea minimă "
+"necesară."
+
+#: includes/pro/forms/class-pro-form.php:244
+msgid "You have not set any plans to choose from."
+msgstr "Nu ați selectat nici un plan pentru a face selecția."
+
+#: includes/pro/forms/class-pro-form.php:287
+#: includes/pro/forms/class-pro-form.php:355
+msgid "The plan <strong>%1$s</strong> does not exist."
+msgstr "Planul  <strong>%1$s</strong> nu există."
+
+#: includes/pro/forms/class-pro-form.php:302
+#: includes/pro/forms/class-pro-form.php:370
+#: includes/pro/functions/admin.php:186
+#: includes/pro/payments/payment-confirmation-template-tags.php:221
+msgid "%1$s/%3$s"
+msgid_plural "%1$s every %2$d %3$ss"
+msgstr[0] "%1$s/%3$s"
+msgstr[1] "%1$s la fiecare %2$d %3$s"
+msgstr[2] "%1$s la fiecare %2$d %3$s"
+
+#. translators: message displayed on front-end for amount below minimum amount
+#. for one-time payment custom amount field
+#. translators: message displayed on front-end for amount below minimum amount
+#. for subscription custom amount field
+#: includes/pro/forms/class-pro-form.php:1010
+#: includes/pro/forms/class-pro-form.php:1012
+msgid "The minimum amount allowed is %s"
+msgstr "Suma minimă permisă este %s"
+
+#: includes/pro/forms/fields/class-address.php:142
+msgid "Same billing & shipping info"
+msgstr "Același date pentru facturare și informații de expediere"
+
+#: includes/pro/forms/fields/class-coupon.php:56
+msgid "Apply"
+msgstr "Aplică"
+
+#: includes/pro/forms/fields/class-coupon.php:73
+msgid "remove"
+msgstr "înlătură"
+
+#: includes/pro/forms/fields/class-dropdown.php:124
+#: includes/pro/forms/fields/class-radio.php:121
+msgid "You have entered non-numerical characters into your quantities."
+msgstr "Ați introdus caractere ne-numerice în cantitățile dvs."
+
+#: includes/pro/forms/fields/class-dropdown.php:133
+#: includes/pro/forms/fields/class-dropdown.php:205
+#: includes/pro/forms/fields/class-radio.php:201
+msgid ""
+"You have a mismatched number of options and amounts. Please correct this for "
+"the dropdown to appear."
+msgstr ""
+"Aveți un număr necorespunzător de opțiuni și sume. Vă rugăm să corectați "
+"aceasta pentru ca lista verticală să apară."
+
+#: includes/pro/forms/fields/class-dropdown.php:196
+#: includes/pro/forms/fields/class-radio.php:197
+msgid "You have entered non-numerical characters into your amounts."
+msgstr "Ați introdus caractere ne-numerice în sumele dvs."
+
+#: includes/pro/forms/fields/class-payment-request-button.php:44
+msgid "Or enter your payment details below"
+msgstr "Sau introdu detaliile tale de plată mai jos"
+
+#: includes/pro/forms/fields/class-radio.php:130
+msgid ""
+"You have a mismatched number of options and quantities. Please correct this "
+"for the dropdown to appear."
+msgstr ""
+"Aveți un număr necorespunzător de opțiuni și cantități. Vă rugăm să "
+"corectați aceasta pentru ca lista verticală să apară."
+
+#: includes/pro/forms/fields/class-total-amount.php:124
+msgid "Tax Amount:"
+msgstr "Valoare taxă:"
+
+#: includes/pro/functions/admin.php:27
+msgid "Arabic (ar)"
+msgstr "Arabă (ar)"
+
+#: includes/pro/functions/admin.php:28
+msgid "Chinese (Simplified) (zh)"
+msgstr "Chineză Simplificată (zh)"
+
+#: includes/pro/functions/admin.php:35
+msgid "Hebrew (he)"
+msgstr "Ebraică (el)"
+
+#: includes/pro/functions/admin.php:38
+msgid "Norwegian (no)"
+msgstr "Norvegiană (no)"
+
+#: includes/pro/functions/admin.php:40
+msgid "Russian (ru)"
+msgstr "Rusă (ru)"
+
+#: includes/pro/functions/admin.php:201
+msgid ""
+"Label displayed above this field on the payment form. Leave blank if using "
+"only placeholders."
+msgstr ""
+"Eticheta afișată deasupra acestui câmp din formularul de plată. Se lasă "
+"necompletat dacă se utilizează numai substituenți."
+
+#: includes/pro/functions/admin.php:208
+msgid "i.e. inline label"
+msgstr "adică eticheta inline"
+
+#: includes/pro/functions/admin.php:215
+msgid ""
+"Used to identify this field within Stripe payment records. Not displayed on "
+"the payment form."
+msgstr ""
+"Utilizat pentru a identifica acest câmp în cadrul înregistrărilor de plată "
+"Stripe. Nu se afișează în formularul de plată."
+
+#: includes/pro/functions/recaptcha.php:57
+msgid ""
+"reCAPTCHA can help automatically protect your custom payment forms from spam "
+"and fraud."
+msgstr ""
+"reCAPTCHA poate ajuta la protejarea automată de spam și fraudă a "
+"formularelor de plată personalizate."
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate.
+#: includes/pro/functions/recaptcha.php:66
+msgid ""
+"To enable reCAPTCHA %1$sregister your site with Google%2$s with reCAPTCHA v3 "
+"to retrieve the necessary credentials."
+msgstr ""
+"Pentru a activa reCAPTCHA %1$sînregistrează site-ul tău cu Google%2$s cu "
+"reCAPTCHA v3 pentru a obține cheile necesare."
+
+#. translators: %1$s Opening anchor tag, do not translate. %2$s Closing anchor
+#. tag, do not translate.
+#: includes/pro/functions/recaptcha.php:81
+msgid "For more information view our %1$shelp docs for reCAPTCHA%2$s."
+msgstr ""
+"Pentru mai multe informații vezi %1$sdocumentația noastră ajutătoare pentru "
+"reCAPTCHA%2$s."
+
+#: includes/pro/functions/recaptcha.php:103
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/pro/functions/recaptcha.php:143
+msgid "Site Key"
+msgstr "Cheie site"
+
+#: includes/pro/functions/recaptcha.php:153
+msgid "Secret Key"
+msgstr "Cheia secretă"
+
+#: includes/pro/functions/recaptcha.php:261
+msgid "Unable to verify Google reCAPTCHA response."
+msgstr "Nu s-a putut verifica răspunsul Google reCAPTCHA."
+
+#: includes/pro/functions/recaptcha.php:272
+msgid "No score threshold available in response."
+msgstr "Nu este disponibil nici un nivel de scor în răspuns."
+
+#: includes/pro/functions/recaptcha.php:278
+msgid "Response action does not match request action."
+msgstr "Acțiunea de răspuns nu corespunde cu acțiunea solicitată."
+
+#: includes/pro/functions/recaptcha.php:292
+msgid ""
+"Unable to verify the validity of this payment request. If you believe this "
+"to be an error please contact the website administrator."
+msgstr ""
+"Nu s-a putut verifica validitatea acestei cereri de plată. Dacă crezi că "
+"aceasta este o eroare, te rugăm să contactezi administratorul website-ului."
+
+#: includes/pro/payments/payment-confirmation.php:162
+#: includes/pro/payments/payment-confirmation.php:220
+#: includes/pro/payments/payment-confirmation.php:248
+msgid "Update Payment Method"
+msgstr "Actualizare metodă de plată"
+
+#: includes/pro/payments/payment-confirmation.php:170
+msgid "Unable to match Customer records to allow payment method updates."
+msgstr ""
+"Imposibil de comparat înregistrările clientului pentru a permite actualizări "
+"ale metodei de plată."
+
+#: includes/pro/payments/payment-confirmation.php:225
+msgid ""
+"The next invoice for %1$s will automatically charge the %2$s ending in %3$s "
+"on %4$s."
+msgstr ""
+"Următoarea factură pentru %1$s va încărca automat %2$s care se termină în "
+"%3$s pe %4$s."
+
+#: includes/pro/payments/payment-confirmation.php:240
+msgid "Card Details"
+msgstr "Detalii card"
+
+#. translators: Generated recurring payment item description: %1$s payment
+#. amount, %2$s interval count, %3$s interval
+#: includes/pro/payments/plan.php:117
+msgid "\"%1$s every %2$s %3$s\" plan"
+msgid_plural "\"%1$s every %2$s %3$ss\" plan"
+msgstr[0] "Planul \"%1$s la fiecare %2$s %3$s\""
+msgstr[1] "Planul \"%1$s la fiecare %2$s %3$s\""
+msgstr[2] "Planul \"%1$s la fiecare %2$s %3$ss\""
+
+#: includes/pro/payments/stripe-checkout/plan.php:30
+#: includes/pro/payments/subscription.php:277
+msgid " - generated by WP Simple Pay"
+msgstr " -generat de WP Simple Pay"
+
+#: includes/pro/payments/stripe-checkout/plan.php:33
+#: includes/pro/payments/subscription.php:280
+msgid " - generated by WP Simple Pay for %1$s"
+msgstr " -generat de WP Simple pay pentru %1$s"
+
+#: includes/pro/payments/stripe-checkout/subscription.php:269
+#: includes/pro/payments/subscription.php:380
+msgid "Subscription Setup Fee"
+msgstr "Cost setare abonament"
+
+#: includes/pro/rest-api/v1/class-webhook-receiver-controller.php:99
+msgid "Webhook received."
+msgstr "Webhook primit."
+
+#: includes/pro/rest-api/v1/class-webhooks-controller.php:142
+msgid ""
+"Unable to create webhook. Please configure manually in your %1$sStripe "
+"dashboard%2$s."
+msgstr ""
+"Nu s-a putut crea webhook. Te rugăm să îl configurezi manual în %1$sPanoul "
+"tău Stripe%2$s."
+
+#: includes/pro/rest-api/v1/class-webhooks-controller.php:162
+msgid "Webhook configured!"
+msgstr "Webhook a fost configurat!"
+
+#: includes/pro/rest-api/v2/class-subscription-controller.php:247
+msgid "Unable to find source."
+msgstr "Imposibil de găsit sursa."
+
+#: includes/pro/rest-api/v2/class-subscription-controller.php:254
+msgid "Subscription Customer does not match."
+msgstr "Abonament Client nu se potrivește."
+
+#: includes/pro/rest-api/v2/class-subscription-controller.php:259
+msgid "Invalid Subscription key."
+msgstr "Cheie abonament nevalidă."
+
+#: includes/pro/webhooks/class-webhook-invoice-payment-succeeded.php:43
+#: includes/pro/webhooks/class-webhook-invoice-upcoming.php:48
+msgid "Subscription not found."
+msgstr "Abonament negăsit."
+
+#. translators: %s Stripe Account Name
+#: includes/pro/webhooks/class-webhook-invoice-upcoming.php:108
+msgid "%s - Your subscription will renew soon"
+msgstr "%s - Abonamentul se va reînnoi în curând"
+
+#. translators: %1$s Stripe Account name. %2$s Renewal date. %3$s Update
+#. payment method URL.
+#: includes/pro/webhooks/class-webhook-invoice-upcoming.php:142
+msgid ""
+"This is a friendly reminder that your %1$s subscription will automatically "
+"renew on %2$s\n"
+"\n"
+"Your payment method on file will be charged at that time. If your billing "
+"information has changed, you can update your payment details below:\n"
+"\n"
+"%3$s"
+msgstr ""
+"Acesta este un memento prietenos că abonamentul %1$s se va reînnoi automat "
+"pe %2$s\n"
+"\n"
+"Metoda de plată la dosar va fi încasată la acel moment. Dacă informațiile de "
+"facturare s-au modificat, puteți actualiza detaliile de plată de mai jos:\n"
+"\n"
+"%3$s"
+
+#: includes/pro/webhooks/functions.php:84
+msgid "Event type not registered. No processing was done."
+msgstr ""
+"Tipul evenimentului nu este înregistrat. Nu s-a realizat nici o procesare."
+
+#: includes/pro/webhooks/functions.php:89
+msgid "Event handler not found. No processing was done."
+msgstr ""
+"Variabila evenimentului nu a fost găsită. Nu s-a realizat nici o procesare."
+
+#: includes/pro/webhooks/functions.php:96
+msgid "Webhook has been previously received. No further processing was done."
+msgstr "Webhook a fost primit mai înainte. Nu s-a realizat nici o procesare."
+
+#: includes/pro/webhooks/template-tags.php:24
+msgid ""
+"In order for Max Charges to function correctly, you must set up a Stripe "
+"webhook endpoint."
+msgstr ""
+"Pentru ca încasarea maximă să funcționeze corect, trebuie să setați un punct "
+"final al \"cârligului web\" (webhook) la Stripe."
+
+#: includes/pro/webhooks/template-tags.php:25
+msgid "Your webhook URL: %s"
+msgstr "URL pentru \"Cârligul web\" (webhook): %s"
+
+#: includes/pro/webhooks/template-tags.php:26
+msgid "See our documentation for a step-by-step guide."
+msgstr "Vedeți documentația pentru o abordare pas-cu-pas."
+
+#: simple-pay.php:117
+msgid ""
+"You must <a href=\"%1$s\">deactivate WP Simple Pay Lite</a> in order to use "
+"%2$s."
+msgstr ""
+"Trebuie să <a href=\"%1$s\">dezactivați WP Plătește Simplu gratuit</a> "
+"pentru a folosi %2$s."
+
+#. Description of the plugin/theme
+msgid ""
+"Add high conversion Stripe payment forms to your WordPress site in minutes."
+msgstr ""
+"Adaugă formulare de plată Stripe cu rată mare de conversie pe website-ul "
+"dvs. WordPress în minute."
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:45
+msgctxt "custom field group"
+msgid "Payment"
+msgstr "Plată"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:46
+msgctxt "custom field group"
+msgid "Customer"
+msgstr "Client"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:47
+msgctxt "custom field group"
+msgid "Standard"
+msgstr "Standard"
+
+#: includes/pro/admin/metaboxes/class-custom-fields.php:48
+msgctxt "custom field group"
+msgid "Custom"
+msgstr "Personalizat"
+
+#: includes/pro/admin/settings.php:60
+msgctxt "Stripe account status"
+msgid "live"
+msgstr "live"
+
+#: includes/pro/admin/settings.php:60
+msgctxt "Stripe account status"
+msgid "test"
+msgstr "test"
+
+#: includes/pro/class-lite-helper.php:223
+msgctxt "This is for the coupon percent off text on the frontend. i.e. 10% off"
+msgid "% off"
+msgstr "reducere % o"
+
+#: includes/pro/class-lite-helper.php:224
+msgctxt "This is for coupon amount off on the frontend. i.e. $3.00 off"
+msgid "off"
+msgstr "reducere"
+
+#: includes/pro/forms/class-pro-form.php:964
+msgctxt "payment request button shipping option label"
+msgid "Default"
+msgstr "Implicită"
+
+#: includes/pro/forms/class-pro-form.php:970
+msgctxt "payment request single subscription label"
+msgid "Subscription"
+msgstr "Abonament"
+
+#: includes/pro/forms/class-pro-form.php:971
+msgctxt "payment request button total label"
+msgid "Total"
+msgstr "Total"
+
+#: includes/pro/forms/class-pro-form.php:972
+msgctxt "payment request button total label"
+msgid "Tax: %s%"
+msgstr "Taxă: %s%"
+
+#: includes/pro/forms/class-pro-form.php:973
+msgctxt "payment request button total label"
+msgid "Coupon: %s"
+msgstr "Cupon: %s"
+
+#: includes/pro/forms/class-pro-form.php:974
+msgctxt "payment request button total label"
+msgid "Setup Fee"
+msgstr "Setare preț"
+
+#~ msgid "List View"
+#~ msgstr "Vedere tip listă"
+
+#~ msgid "Excerpt View"
+#~ msgstr "Vedere tip sumar"
+
+#~ msgid "No items found."
+#~ msgstr "Nu s-a găsit nici un produs."
+
+#~ msgid "Select bulk action"
+#~ msgstr "Selectați acțiune multiplă"
+
+#~ msgid "Bulk Actions"
+#~ msgstr "Acțiuni multiple"
+
+#~ msgid "Show more details"
+#~ msgstr "Arată mai multe detalii"
+
+#~ msgid "Filter by date"
+#~ msgstr "Filtrează după dată"
+
+#~ msgid "All dates"
+#~ msgstr "Toate datele"
+
+#~ msgid "%1$s %2$d"
+#~ msgstr "%1$s %2$d"
+
+#~ msgid "%s comment"
+#~ msgid_plural "%s comments"
+#~ msgstr[0] "un comentariu"
+#~ msgstr[1] "%s comentarii"
+#~ msgstr[2] "%s comentarii"
+
+#~ msgid "%s approved comment"
+#~ msgid_plural "%s approved comments"
+#~ msgstr[0] "un comentariu aprobat"
+#~ msgstr[1] "%s comentarii aprobate"
+#~ msgstr[2] "%s comentarii aprobate"
+
+#~ msgid "%s pending comment"
+#~ msgid_plural "%s pending comments"
+#~ msgstr[0] "un comentariu în așteptare"
+#~ msgstr[1] "%s comentarii în așteptare"
+#~ msgstr[2] "%s comentarii în așteptare"
+
+#~ msgid "No comments"
+#~ msgstr "Nici un comentariu"
+
+#~ msgid "No approved comments"
+#~ msgstr "Nici un comentariu aprobat"
+
+#~ msgid "No pending comments"
+#~ msgstr "Nici un comentariu în așteptare"
+
+#~ msgid "%s item"
+#~ msgid_plural "%s items"
+#~ msgstr[0] "un produs"
+#~ msgstr[1] "%s produse"
+#~ msgstr[2] "%s produse"
+
+#~ msgid "First page"
+#~ msgstr "Prima pagină"
+
+#~ msgid "Previous page"
+#~ msgstr "Pagina anterioară"
+
+#~ msgid "Current Page"
+#~ msgstr "Pagina curentă"
+
+#~ msgid "Next page"
+#~ msgstr "Pagina următoare"
+
+#~ msgid "Last page"
+#~ msgstr "Ultima pagină"
+
+#~ msgid "Select All"
+#~ msgstr "Selectează toate"
+
+#~ msgid "Unable to remove custom Plan \"%1$s\""
+#~ msgstr "Imposibil de eliminat planul particularizat \"%1$s\""
+
+#~ msgctxt "paging"
+#~ msgid "%1$s of %2$s"
+#~ msgstr "%1$s din %2$s"
+
+#~ msgid "Collect full payment method Billing Address on the Checkout page."
+#~ msgstr ""
+#~ "Colectează metoda plată completă adresa de facturare pe pagina de plată."
+
+#~ msgid "Default Plugin Styles"
+#~ msgstr "Stilurile implicite ale plugin-ului"
+
+#~ msgid ""
+#~ "Optionally disable all payment form styles (CSS files) included with %s. "
+#~ "Styles in the Stripe Checkout overlay cannot be changed."
+#~ msgstr ""
+#~ "Opțional dezactivați toate stilurile formularelor de plată (fișiere CSS) "
+#~ "incluse cu %s. Stilurile din matrița paginii de plată suprapuse Stripe nu "
+#~ "pot fi schimbate."
+
+#~ msgid ""
+#~ "Enable usage analytics and subscribe to our newsletter to save %1$s10&#37;"
+#~ "%2$s when you %3$supgrade to %1$sWP Simple Pay Pro%2$s%4$s with a coupon "
+#~ "delivered directly to your inbox."
+#~ msgstr ""
+#~ "Activați analiza de utilizare și abonați-vă la newsletter-ul nostru "
+#~ "pentru a salva%1$s10 &#37;%2$s când%3$sfaceti ugrade la%1$sWP Simple Pay "
+#~ "Pro%2$s %4$s cu un cupon trimis direct în Inbox."
+
+#~ msgid ""
+#~ "Allowing your website to be considered as we evaluate new features "
+#~ "ensures you get the most out of each and every update to WP Simple Pay. "
+#~ "No sensitive data is ever collected or stored."
+#~ msgstr ""
+#~ "Permiterea site-ului dumneavoastră să fie considerat atunci când vom "
+#~ "evalua noi caracteristici vă asigură să obțineți cele mai multe beneficii "
+#~ "din fiecare actualizare la WP Simple Pay. Nu sunt colectate sau stocate "
+#~ "date sensibile."
+
+#~ msgid "Enable and Subscribe"
+#~ msgstr "Activare și Abonare"
+
+#~ msgid "View the %1$sdocumentation%2$s to learn more."
+#~ msgstr "Vezi %1$sdocumentația%2$s pentru a afla mai multe."
+
+#~ msgid ""
+#~ "Stripe Checkout is changing soon. This will impact the appearance of your "
+#~ "payment forms."
+#~ msgstr ""
+#~ "Stripe Checkout se va schimba în curând. Aceasta va avea efect asupra "
+#~ "aspectului formularelor tale de plată."
+
+#~ msgid ""
+#~ "Stripe Checkout is changing soon. This will impact the appearance of your "
+#~ "payment forms using this display type."
+#~ msgstr ""
+#~ "Stripe Checkout se va schimba în curând. Aceasta va avea efect asupra "
+#~ "aspectului formularelor tale de plată folosind acest tip de afișare."
+
+#~ msgid ""
+#~ "Text used for the final checkout button on the overlay (not the on-page "
+#~ "payment button). Add %s where you'd like to show the amount. If %s is "
+#~ "omitted, it will be appended at the end of the button text unless it is a "
+#~ "free trial."
+#~ msgstr ""
+#~ "Textul folosit pentru butonul final de plată în matrița suprapusă (nu "
+#~ "butonul de plată din pagină). Adăugați %s acolo unde doriți să arătați "
+#~ "suma. Dacă %s este omis, va fi adăugat la sfârșitul textului butonului, "
+#~ "cu excepția cazului când este o încercare gratuită de probă."
+
+#~ msgid "Enable Remember Me"
+#~ msgstr "Activează Ține-mă minte"
+
+#~ msgid "Verify Zip/Postal Code"
+#~ msgstr "Verifică Zip/Cod poștal"
+
+#~ msgid "Enable Shipping Address"
+#~ msgstr "Activează adresă de livrare"
+
+#~ msgid "Misc"
+#~ msgstr "Diverse"
+
+#~ msgid "Stripe Checkout supported languages"
+#~ msgstr "Limbile disponibile în pagina de plată Stripe"
+
+#~ msgid "Starts with"
+#~ msgstr "Începe cu"
+
+#~ msgid "Card Error"
+#~ msgstr "Eroare card"
+
+#~ msgid "Rate Limit Error"
+#~ msgstr "Eroare la rata limitei"
+
+#~ msgid "Invalid Request Error"
+#~ msgstr "Eroare solicitare incorectă"
+
+#~ msgid "Authentication Error"
+#~ msgstr "Eroare de autentificare"
+
+#~ msgid "Stripe API Connection Error"
+#~ msgstr "Eroare de conectare API Stripe"
+
+#~ msgid "Stripe Error"
+#~ msgstr "Eroare Stripe"
+
+#~ msgid "General Error"
+#~ msgstr "Eroare generală"
+
+#~ msgid ""
+#~ "An error occurred, but your charge may have gone through. Please contact "
+#~ "the site admin."
+#~ msgstr ""
+#~ "A apărut o eroare, dar tranzacția se poate să fi fost procesată. Vă rugăm "
+#~ "să contactați administratorul site-ului."
+
+#~ msgid ""
+#~ "Inline Zip/Postal code will not be enabled if an Address field is present "
+#~ "on the payment form."
+#~ msgstr ""
+#~ "Codul poștal InLinie nu va fi activat dacă un câmp de adresă este prezent "
+#~ "în formularul de plată."
+
+#~ msgid "Start Your Free Trial"
+#~ msgstr "Începeți proba gratuită"
+
+#~ msgid "You have not selected a plan."
+#~ msgstr "Nu ați selectat un plan."
+
+#~ msgid ""
+#~ "SSL (HTTPS) is not enabled. You will not be able to process live Stripe "
+#~ "transactions until SSL is enabled. <a href=\"%1$s\" target=\"_blank\" rel="
+#~ "\"noopener noreferrer\">Review the system requirements</a> for WP Simple "
+#~ "Pay Pro."
+#~ msgstr ""
+#~ "SSL (HTTPS) nu este activat. Nu veți putea procesa tranzacțiile reale "
+#~ "Stripe până nu veți activa SSL. <a href=\"%1$s\" target=\"_blank\" rel="
+#~ "\"noopener noreferrer\">Revedeți necesarul de sistem</a> pentru WP "
+#~ "Plătește Simplu Pro."
+
+#~ msgid "Trial Button Text"
+#~ msgstr "Text buton de încercare de probă"
+
+#~ msgid ""
+#~ "Text used for the final checkout button on the overlay (not the on-page "
+#~ "payment button). Only applies to subscription plans with a free trial."
+#~ msgstr ""
+#~ "Text folosit pentru butonul de plată final din matrița suprapusă (nu "
+#~ "butonul de plată în pagină). Se aplică doar la planurile de abonament cu "
+#~ "încercare gratuită de probă."
+
+#~ msgid "Unable to validate webhook data."
+#~ msgstr "Nu s-au putut validat datele pentru webhook."
+
+#~ msgid "%1$s requires PHP version %2$s or higher."
+#~ msgstr "%s necesită versiunea PHP %2$s sau mai mare."
+
+#~ msgid "View your Stripe account settings"
+#~ msgstr "Vezi setările contului tău Stripe"
+
+#~ msgid "Please wait..."
+#~ msgstr "Vă rugăm așteptați..."
+
+#~ msgid ""
+#~ "While in <strong>Test Mode</strong> you may only select plans from your "
+#~ "<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Stripe "
+#~ "Test Plans</a>. Before switching to Live Mode, make sure the same plans "
+#~ "(with the exact same IDs) are created in your <a href=\"%2$s\" target="
+#~ "\"_blank\">Stripe Live Plans</a>."
+#~ msgstr ""
+#~ "Când sunteți în <strong>Modul Test</strong> puteți selecta planuri doar "
+#~ "din <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer"
+#~ "\">Planurile dvs. de test Stripe</a>. Înainte de a schimba în Modul live, "
+#~ "asigurați-vă că aceleași planuri (cu exact aceleași ID-uri) sunt create "
+#~ "în <a href=\"%2$s\" target=\"_blank\">Planurile dvs. Stripe live</a>."
+
+#~ msgid "Dismiss Notice"
+#~ msgstr "Revocați notificarea"
+
+#~ msgid "None (inherit from theme)"
+#~ msgstr "Niciunul (moștenit din temă)"
+
+#~ msgid "<a href=\"#\">Click here</a> to manage your API keys manually."
+#~ msgstr "<a href=\"#\">Click aici</a> pentru a controla manual cheile API."
+
+#~ msgid "<a href=\"#\">Click here</a> to hide your API keys."
+#~ msgstr "<a href=\"#\">Click aici</a> pentru a ascunde cheile API."
+
+#~ msgid "License status: %s"
+#~ msgstr "Stare licență: %s"
+
+#~ msgid "Card"
+#~ msgstr "Card"
+
+#~ msgid "Text Field"
+#~ msgstr "Câmp text"
+
+#~ msgid "Dropdown Select"
+#~ msgstr "Listă de selectare verticală"
+
+#~ msgid "Date Field"
+#~ msgstr "Câmp dată"
+
+#~ msgid "Coupon Field"
+#~ msgstr "Câmp cupon"
+
+#~ msgid "Custom Amount Field"
+#~ msgstr "Câmp sumă personalizată"
+
+#~ msgid ""
+#~ "Your WP Simple Pay Pro 3 license key is invalid, inactive or missing. "
+#~ "Please"
+#~ msgstr ""
+#~ "Licența dvs. WP Plătește Simplu Pro 3 este invalidă, inactivă sau "
+#~ "lipsește. Vă rugăm"
+
+#~ msgid "enter and activate"
+#~ msgstr "introduceți și activați"
+
+#~ msgid "your license key to enable automatic updates."
+#~ msgstr "cheia licenței dvs. pentru a activa actualizările automate."
+
+#~ msgid ""
+#~ "It looks like you have switched to test mode. Make sure the correct "
+#~ "subscription plans and coupons exist in your test <a href=\"%s\" target="
+#~ "\"_blank\">Stripe account</a>."
+#~ msgstr ""
+#~ "Se pare ca ați trecut la Modul Test. Asigurați-vă că planurile de "
+#~ "abonament și cupoanele există în <a href=\"%s\" target=\"_blank\">contul "
+#~ "dvs. Stripe </a> de test."
+
+#~ msgid ""
+#~ "It looks like you have switched to live mode. Make sure the correct "
+#~ "subscription plans and coupons exist in your live <a href=\"%s\" target="
+#~ "\"_blank\">Stripe account</a>."
+#~ msgstr ""
+#~ "Se pare ca ați trecut la Modul Real. Asigurați-vă că planurile de "
+#~ "abonament și cupoanele există în <a href=\"%s\" target=\"_blank\">contul "
+#~ "dvs. Stripe </a> real."
+
+#~ msgid ""
+#~ "Your license key is used for access to automatic upgrades and premium "
+#~ "support."
+#~ msgstr ""
+#~ "O cheie de licență este folosită pentru a accesa actualizările automate "
+#~ "si suportul tehnic avansat."
+
+#~ msgid "Coupon Apply Button Style"
+#~ msgstr "Buton stil de aplicare a cuponului"
+
+#~ msgid ""
+#~ "Both the Payment & Coupon Apply Button Style options apply to the "
+#~ "\"Stripe Checkout + Custom Forms\" payment form display type only."
+#~ msgstr ""
+#~ "Atât opțiunile butonului de plată cât și cele pentru cupon se aplică doar "
+#~ "la afișarea \"Plății Stripe + formularele particularizate\" de plată."
+
+#~ msgid "You may only add one Payment Button field per form."
+#~ msgstr ""
+#~ "Puteți adăuga doar un singur câmp pe formular pentru butonul de plată."
+
+#~ msgid "You may only add one Custom Amount Field per form."
+#~ msgstr ""
+#~ "Puteți adăuga doar un singur câmp pe formular pentru prețul personalizat."
+
+#~ msgid "You may only add one Subscription Plan Select field per form."
+#~ msgstr ""
+#~ "Puteți să adăugați doar un singur selector pentru planul de abonament pe "
+#~ "formular."
+
+#~ msgid "You may only add one Recurring Amount Toggle field per form."
+#~ msgstr ""
+#~ "Puteți adăuga doar un singur selector de sumă recurentă pe formular."
+
+#~ msgid "You may only add one Email field per form."
+#~ msgstr "Este posibil să adăugați un singur câmp de email per formular."
+
+#~ msgid "You may only add one Card field per form."
+#~ msgstr "Este posibil să adăugați numai un câmp card per formular."
+
+#~ msgid "You may only add one Postal/Zip Code field per form."
+#~ msgstr "Este posibil să adăugați un singur câmp poștal/cod ZIP pe formular."
+
+#~ msgid "You may only add one Checkout Button field per form."
+#~ msgstr "Este posibil să adăugați doar un câmp buton de plată per formular."
+
+#~ msgid "Your %1$s Stripe API Keys for %2$s have not been entered."
+#~ msgstr "Cheile dvs. API Stripe %1$s  pentru %2$s nu au fost introduse."
+
+#~ msgid "Enter them here."
+#~ msgstr "Introduceți-le aici."
+
+#~ msgid ""
+#~ "<a href=\"%1$s\" target=\"_blank\">Retrieve your Stripe API test and live "
+#~ "keys.</a>"
+#~ msgstr ""
+#~ "<a href=\"%1$s\" target=\"_blank\">Regăsiți cheile dvs. Stripe test si "
+#~ "reale.</a>"
+
+#~ msgid ""
+#~ "It looks like you have changed your API keys. Make sure the correct "
+#~ "subscription plans and coupons exist in the Stripe account tied to those "
+#~ "keys."
+#~ msgstr ""
+#~ "Se pare ca v-ați schimbat cheile API. Asigurați-vă că planurile de "
+#~ "abonament și cupoanele există în contul dvs. Stripe asociat cu aceste "
+#~ "chei."
+
+#~ msgid "Checkout Overlay Display"
+#~ msgstr "Matrița paginii de plată suprapuse"
+
+#~ msgid "Add a field"
+#~ msgstr "Adaugă un câmp"
+
+#~ msgid "Hello World"
+#~ msgstr "Salut lume"
+
+#~ msgctxt "verb"
+#~ msgid "Post"
+#~ msgstr "Postează"
+
+#~ msgid "%d apple"
+#~ msgid_plural "%d apples"
+#~ msgstr[0] "Un măr"
+#~ msgstr[1] "%d mere"
+#~ msgstr[2] "%d mere"
+
+#~ msgctxt "noun, job positions"
+#~ msgid "%d post"
+#~ msgid_plural "%d posts"
+#~ msgstr[0] "%d postare"
+#~ msgstr[1] "%d postări"
+#~ msgstr[2] "%d postări"
+
+#~ msgid "Exclude"
+#~ msgstr "Exclude"
+
+#~ msgid "Include"
+#~ msgstr "Include"
+
+#~ msgid "String"
+#~ msgstr "Text"
+
+#~ msgctxt "a string"
+#~ msgid "String"
+#~ msgstr "Un text"
+
+#~ msgid "1 Star"
+#~ msgid_plural "%s Stars"
+#~ msgstr[0] "1 Stea"
+#~ msgstr[1] "%s Stele"
+#~ msgstr[2] "%s Stele"
+
+#~ msgid "A"
+#~ msgstr "A"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "https://wpsimplepay.com"
+#~ msgstr "https://wpsimplepay.com"
+
+#~ msgid "WP Simple Pay"
+#~ msgstr "WP Plătește Simplu"
+
+#~ msgid ""
+#~ "WP Simple Pay and Stripe are ending compatibility with PHP 5.3 in the "
+#~ "next update. Please update PHP before updating WP Simple Pay."
+#~ msgstr ""
+#~ "WP Simple Pay și Stripe termină în curând suportul pentru PHP 5.3. Vă "
+#~ "rugăm să actualizați PHP înainte de a actualiza WP Simple Pay."
+
+#~ msgid "We strongly recommend PHP 7.0 or higher."
+#~ msgstr "Recomandăm cu tărie PHP 7.0 sau mai mare."
+
+#~ msgid "Click here for more details and a letter you can send to your host."
+#~ msgstr ""
+#~ "Click aici pentru mai multe detalii și o scrisoare pe care o poți trimite "
+#~ "către hostul tău."
+
+#~ msgid "Enable Bitcoin"
+#~ msgstr "Activează Bitcoin"
+
+#~ msgid "System Status"
+#~ msgstr "Stare Sistem"
+
+#~ msgid "No version found."
+#~ msgstr "Nu a fost găsită nici o versiune."
+
+#~ msgid "Configure your subscription options."
+#~ msgstr "Configurare opțiuni abonament."
+
+#~ msgid "(id: %1$s) - %2$s/%4$s"
+#~ msgid_plural "(id: %1$s) - %2$s every %3$d %4$ss"
+#~ msgstr[0] "(id: %1$s) - %2$s/%4$s"
+#~ msgstr[1] "(id: %1$s) - %2$s la fiecare %3$d %4$s"
+#~ msgstr[2] "(id: %1$s) - %2$s la fiecare %3$d %4$s"

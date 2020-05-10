@@ -1,0 +1,87 @@
+// Automatically hide built in modal toggles.
+input[type="checkbox"].simpay-modal-control {
+	display: none;
+}
+
+.simpay-modal-control-open {
+	display: inline-block;
+	margin: 0 0 15px 0;
+	padding: 0;
+	position: relative;
+	cursor: pointer;
+
+	.simpay-form-control {
+		margin: 0;
+	}
+
+	* {
+		pointer-events: none;
+	}
+}
+
+.simpay-modal-control-close {
+	font-family: $base-font;
+	color: #a6a6a6;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	padding: 5px 10px;
+	cursor: pointer;
+
+	&:hover {
+		color: #8d8d8d;
+	}
+}
+
+.simpay-modal-overlay-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+.simpay-modal {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 999999999;
+	overflow: hidden;
+	height: 0;
+	opacity: 0;
+	transition: opacity 0.3s;
+
+	// Center heading & subhead on overlay by default.
+	.simpay-form-title,
+	.simpay-form-description {
+		text-align: center;
+	}
+
+	// Less margin above/below heading on overlay.
+	.simpay-form-title {
+		margin-top: 0;
+		margin-bottom: 0.5em;
+	}
+}
+
+.simpay-modal__body {
+	width: 100vw;
+	max-width: 440px;
+	max-height: calc(100vh - 60px);
+	overflow-y: auto;
+	z-index: 1;
+}
+
+.simpay-modal__content {
+	position: relative;
+	padding: 30px 30px 15px 30px;
+	background: #fff;
+}

@@ -1,0 +1,50 @@
+.simpay-checkout-form--stripe_checkout-styled,
+.simpay-checkout-form--overlay,
+.simpay-checkout-form--embedded {
+
+	&.simpay-styled {
+		font-family: $base-font;
+		font-size: 15px;
+		font-weight: 500;
+		color: $base-text-color;
+	}
+}
+
+.simpay-checkout-form--stripe_checkout-styled,
+.simpay-checkout-form--embedded {
+
+	&.simpay-styled {
+		max-width: 400px;
+	}
+}
+
+.simpay-embedded-heading {
+
+	&.simpay-styled {
+		margin: 15px 0 25px;
+	}
+}
+
+.simpay-form-title,
+.simpay-form-description {
+
+	.simpay-styled & {
+		font-family: $base-font;
+	}
+}
+
+.simpay-form-title {
+
+	.simpay-styled & {
+		margin-bottom: 0;
+	}
+}
+
+.simpay-form-description {
+
+	.simpay-styled & {
+		font-size: 16px;
+		color: #666;
+		margin: 0;
+	}
+}

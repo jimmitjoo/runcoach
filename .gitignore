@@ -1,5 +1,9 @@
 # Application
 web/app/plugins/*
+!web/app/plugins/force-regenerate-thumbnails
+!web/app/plugins/redux-framework
+!web/app/plugins/wp-simple-pay-pro-3
+!web/app/plugins/wpforms-lite
 !web/app/plugins/.gitkeep
 web/app/mu-plugins/*/
 web/app/upgrade

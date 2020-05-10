@@ -1,0 +1,45 @@
+.simpay-address-container {
+
+	.simpay-styled & {
+		margin: 0;
+		padding: 0;
+		border: 0;
+
+		legend {
+			font-family: $base-font;
+			font-weight: 600;
+			margin: 0 0 15px;
+			padding: 0;
+		}
+
+		.simpay-address-city-container,
+		.simpay-address-state-container,
+		.simpay-address-zip-container,
+		.simpay-address-country-container {
+			float: left;
+			width: 48%;
+		}
+
+		.simpay-address-state-container,
+		.simpay-address-country-container {
+			float: right;
+		}
+	}
+}
+
+.simpay-form-control {
+
+	.simpay-same-address-toggle-wrap {
+		display: flex;
+		align-items: center;
+
+		input {
+			margin: 0 5px 0 0;
+		}
+
+		label {
+			margin: 0;
+		}
+
+	}
+}
